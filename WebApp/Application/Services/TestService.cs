@@ -25,7 +25,13 @@ namespace WebApp.Application.Services
         Id = test.Id,
         IsCodeTest = test.IsCodeTest,
         SectionId = test.SectionId,
-        Question = test.Question
+        Question = test.Question,
+        Options = test.Options.Select(x => new TestOptionsDTO
+        {
+          Id = x.Id,
+          TestId = x.TestId,
+          OptionText = x.OptionText,
+        }).ToList()
       };
     }
   }

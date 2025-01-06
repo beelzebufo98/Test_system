@@ -1,5 +1,15 @@
 [
   {
+    "ContainingType": "WebApp.Controllers.TestSectionController",
+    "Method": "GetAll",
+    "RelativePath": "api/sections",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "TestController",
     "Method": "GetTestsBySection",
     "RelativePath": "api/Test/section/{sectionId}",

@@ -23,13 +23,6 @@ public class TestController : ControllerBase
     return Ok(tests);
   }
 
-  //[HttpGet("sections")]
-  //public async Task<ActionResult<IEnumerable<TestSection>>> GetSections()
-  //{
-  //  var sections = await _context.TestSections.ToListAsync();
-  //  return Ok(sections);
-  //}
-
   //[HttpPost("check-answer")]
   //public IActionResult CheckAnswer([FromBody] AnswerCheckRequest request)
   //{

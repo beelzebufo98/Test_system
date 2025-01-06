@@ -8,6 +8,6 @@ namespace WebApp.Application.DTOs
     public required int SectionId { get; init; }
     public required string Question { get; init; }
     public required bool IsCodeTest { get; init; }
-    //public required ICollection<TestOptionsDTO> Tests { get; init; }
+    public required ICollection<TestOptionsDTO> Options { get; init; }
   }
 }

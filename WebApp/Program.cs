@@ -25,7 +25,10 @@ builder.Services.AddCors(options =>
 builder.Services.AddDbContext<TestDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddScoped<ITestService, TestService>();
+builder.Services.AddScoped<ITestSectionService, TestSectionService>();
 builder.Services.AddScoped<ITestRepository, TestRepository>();
+builder.Services.AddScoped<ITestOptionRepository, TestOptionRepository>();
+builder.Services.AddScoped<ITestSectionRepository, TestSectionRepository>();
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
