@@ -1,0 +1,236 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C#\\WebApplicationTests\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AA875608-841F-43EB-A496-29C1384BA455}|WebApp\\WebApp.csproj|d:\\c#\\webapplicationtests\\webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AA875608-841F-43EB-A496-29C1384BA455}|WebApp\\WebApp.csproj|solutionrelative:webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA875608-841F-43EB-A496-29C1384BA455}|WebApp\\WebApp.csproj|d:\\c#\\webapplicationtests\\webapp\\application\\services\\testservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA875608-841F-43EB-A496-29C1384BA455}|WebApp\\WebApp.csproj|solutionrelative:webapp\\application\\services\\testservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA875608-841F-43EB-A496-29C1384BA455}|WebApp\\WebApp.csproj|d:\\c#\\webapplicationtests\\webapp\\infrastructure\\data\\repositories\\testrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA875608-841F-43EB-A496-29C1384BA455}|WebApp\\WebApp.csproj|solutionrelative:webapp\\infrastructure\\data\\repositories\\testrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA875608-841F-43EB-A496-29C1384BA455}|WebApp\\WebApp.csproj|d:\\c#\\webapplicationtests\\webapp\\application\\dtos\\testdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA875608-841F-43EB-A496-29C1384BA455}|WebApp\\WebApp.csproj|solutionrelative:webapp\\application\\dtos\\testdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA875608-841F-43EB-A496-29C1384BA455}|WebApp\\WebApp.csproj|d:\\c#\\webapplicationtests\\webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA875608-841F-43EB-A496-29C1384BA455}|WebApp\\WebApp.csproj|solutionrelative:webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA875608-841F-43EB-A496-29C1384BA455}|WebApp\\WebApp.csproj|d:\\c#\\webapplicationtests\\webapp\\infrastructure\\data\\testdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA875608-841F-43EB-A496-29C1384BA455}|WebApp\\WebApp.csproj|solutionrelative:webapp\\infrastructure\\data\\testdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA875608-841F-43EB-A496-29C1384BA455}|WebApp\\WebApp.csproj|d:\\c#\\webapplicationtests\\webapp\\infrastructure\\data\\interfaces\\itestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA875608-841F-43EB-A496-29C1384BA455}|WebApp\\WebApp.csproj|solutionrelative:webapp\\infrastructure\\data\\interfaces\\itestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA875608-841F-43EB-A496-29C1384BA455}|WebApp\\WebApp.csproj|d:\\c#\\webapplicationtests\\webapp\\application\\interfaces\\itestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA875608-841F-43EB-A496-29C1384BA455}|WebApp\\WebApp.csproj|solutionrelative:webapp\\application\\interfaces\\itestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA875608-841F-43EB-A496-29C1384BA455}|WebApp\\WebApp.csproj|d:\\c#\\webapplicationtests\\webapp\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA875608-841F-43EB-A496-29C1384BA455}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA875608-841F-43EB-A496-29C1384BA455}|WebApp\\WebApp.csproj|d:\\c#\\webapplicationtests\\webapp\\application\\dtos\\testoptionsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA875608-841F-43EB-A496-29C1384BA455}|WebApp\\WebApp.csproj|solutionrelative:webapp\\application\\dtos\\testoptionsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA875608-841F-43EB-A496-29C1384BA455}|WebApp\\WebApp.csproj|d:\\c#\\webapplicationtests\\webapp\\core\\entities\\testsectionentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA875608-841F-43EB-A496-29C1384BA455}|WebApp\\WebApp.csproj|solutionrelative:webapp\\core\\entities\\testsectionentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA875608-841F-43EB-A496-29C1384BA455}|WebApp\\WebApp.csproj|d:\\c#\\webapplicationtests\\webapp\\webapp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{AA875608-841F-43EB-A496-29C1384BA455}|WebApp\\WebApp.csproj|solutionrelative:webapp\\webapp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 263,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TestRepository.cs",
+              "DocumentMoniker": "D:\\C#\\WebApplicationTests\\WebApp\\Infrastructure\\Data\\Repositories\\TestRepository.cs",
+              "RelativeDocumentMoniker": "WebApp\\Infrastructure\\Data\\Repositories\\TestRepository.cs",
+              "ToolTip": "D:\\C#\\WebApplicationTests\\WebApp\\Infrastructure\\Data\\Repositories\\TestRepository.cs",
+              "RelativeToolTip": "WebApp\\Infrastructure\\Data\\Repositories\\TestRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAzwBIAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T11:52:01.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ITestRepository.cs",
+              "DocumentMoniker": "D:\\C#\\WebApplicationTests\\WebApp\\Infrastructure\\Data\\Interfaces\\ITestRepository.cs",
+              "RelativeDocumentMoniker": "WebApp\\Infrastructure\\Data\\Interfaces\\ITestRepository.cs",
+              "ToolTip": "D:\\C#\\WebApplicationTests\\WebApp\\Infrastructure\\Data\\Interfaces\\ITestRepository.cs",
+              "RelativeToolTip": "WebApp\\Infrastructure\\Data\\Interfaces\\ITestRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T11:51:03.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestService.cs",
+              "DocumentMoniker": "D:\\C#\\WebApplicationTests\\WebApp\\Application\\Services\\TestService.cs",
+              "RelativeDocumentMoniker": "WebApp\\Application\\Services\\TestService.cs",
+              "ToolTip": "D:\\C#\\WebApplicationTests\\WebApp\\Application\\Services\\TestService.cs",
+              "RelativeToolTip": "WebApp\\Application\\Services\\TestService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T11:27:16.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TestDTO.cs",
+              "DocumentMoniker": "D:\\C#\\WebApplicationTests\\WebApp\\Application\\DTOs\\TestDTO.cs",
+              "RelativeDocumentMoniker": "WebApp\\Application\\DTOs\\TestDTO.cs",
+              "ToolTip": "D:\\C#\\WebApplicationTests\\WebApp\\Application\\DTOs\\TestDTO.cs",
+              "RelativeToolTip": "WebApp\\Application\\DTOs\\TestDTO.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T11:09:18.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ITestService.cs",
+              "DocumentMoniker": "D:\\C#\\WebApplicationTests\\WebApp\\Application\\Interfaces\\ITestService.cs",
+              "RelativeDocumentMoniker": "WebApp\\Application\\Interfaces\\ITestService.cs",
+              "ToolTip": "D:\\C#\\WebApplicationTests\\WebApp\\Application\\Interfaces\\ITestService.cs",
+              "RelativeToolTip": "WebApp\\Application\\Interfaces\\ITestService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T11:07:17.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#\\WebApplicationTests\\WebApp\\Program.cs",
+              "RelativeDocumentMoniker": "WebApp\\Program.cs",
+              "ToolTip": "D:\\C#\\WebApplicationTests\\WebApp\\Program.cs",
+              "RelativeToolTip": "WebApp\\Program.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T17:50:30.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "D:\\C#\\WebApplicationTests\\WebApp\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "WebApp\\Controllers\\TestController.cs",
+              "ToolTip": "D:\\C#\\WebApplicationTests\\WebApp\\Controllers\\TestController.cs",
+              "RelativeToolTip": "WebApp\\Controllers\\TestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T18:22:33.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TestDbContext.cs",
+              "DocumentMoniker": "D:\\C#\\WebApplicationTests\\WebApp\\Infrastructure\\Data\\TestDbContext.cs",
+              "RelativeDocumentMoniker": "WebApp\\Infrastructure\\Data\\TestDbContext.cs",
+              "ToolTip": "D:\\C#\\WebApplicationTests\\WebApp\\Infrastructure\\Data\\TestDbContext.cs",
+              "RelativeToolTip": "WebApp\\Infrastructure\\Data\\TestDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T18:28:25.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\C#\\WebApplicationTests\\WebApp\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApp\\appsettings.json",
+              "ToolTip": "D:\\C#\\WebApplicationTests\\WebApp\\appsettings.json",
+              "RelativeToolTip": "WebApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-05T09:30:53.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TestOptionsDTO.cs",
+              "DocumentMoniker": "D:\\C#\\WebApplicationTests\\WebApp\\Application\\DTOs\\TestOptionsDTO.cs",
+              "RelativeDocumentMoniker": "WebApp\\Application\\DTOs\\TestOptionsDTO.cs",
+              "ToolTip": "D:\\C#\\WebApplicationTests\\WebApp\\Application\\DTOs\\TestOptionsDTO.cs",
+              "RelativeToolTip": "WebApp\\Application\\DTOs\\TestOptionsDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T11:18:03.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TestSectionEntity.cs",
+              "DocumentMoniker": "D:\\C#\\WebApplicationTests\\WebApp\\Core\\Entities\\TestSectionEntity.cs",
+              "RelativeDocumentMoniker": "WebApp\\Core\\Entities\\TestSectionEntity.cs",
+              "ToolTip": "D:\\C#\\WebApplicationTests\\WebApp\\Core\\Entities\\TestSectionEntity.cs",
+              "RelativeToolTip": "WebApp\\Core\\Entities\\TestSectionEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwAcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T10:30:38.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WebApp.http",
+              "DocumentMoniker": "D:\\C#\\WebApplicationTests\\WebApp\\WebApp.http",
+              "RelativeDocumentMoniker": "WebApp\\WebApp.http",
+              "ToolTip": "D:\\C#\\WebApplicationTests\\WebApp\\WebApp.http",
+              "RelativeToolTip": "WebApp\\WebApp.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-01-04T17:54:24.996Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
