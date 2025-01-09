@@ -1,0 +1,5382 @@
+{
+  "testSections": [
+    {
+      "id": 1,
+      "name": "Основы C#",
+      "tests": [
+        {
+          "id": 1,
+          "sectionId": 1,
+          "question": "Что из перечисленного является ключевым словом в C#?",
+          "isCodeTest": false,
+          "correctAnswer": "public",
+          "testNumber": 1,
+          "options": [
+            {
+              "id": 1,
+              "testId": 1,
+              "optionText": "main",
+              "isCorrect": false
+            },
+            {
+              "id": 2,
+              "testId": 1,
+              "optionText": "public",
+              "isCorrect": true
+            },
+            {
+              "id": 3,
+              "testId": 1,
+              "optionText": "Console",
+              "isCorrect": false
+            },
+            {
+              "id": 4,
+              "testId": 1,
+              "optionText": "hello",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "sectionId": 1,
+          "question": "Верно, что переменная в языке C# может иметь имя:",
+          "isCodeTest": false,
+          "correctAnswer": "newInternal,inline_args,_8bits",
+          "testNumber": 2,
+          "options": [
+            {
+              "id": 5,
+              "testId": 2,
+              "optionText": "switch",
+              "isCorrect": false
+            },
+            {
+              "id": 6,
+              "testId": 2,
+              "optionText": "newInternal",
+              "isCorrect": true
+            },
+            {
+              "id": 7,
+              "testId": 2,
+              "optionText": "inline_args",
+              "isCorrect": true
+            },
+            {
+              "id": 8,
+              "testId": 2,
+              "optionText": "8bit",
+              "isCorrect": false
+            },
+            {
+              "id": 9,
+              "testId": 2,
+              "optionText": "_8bits",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "sectionId": 1,
+          "question": "Можно ли использовать ключевое слово как идентификатор переменной?",
+          "isCodeTest": false,
+          "correctAnswer": "Да, если перед ним поставить символ @",
+          "testNumber": 3,
+          "options": [
+            {
+              "id": 10,
+              "testId": 3,
+              "optionText": "Да, если оно записано в кавычках.",
+              "isCorrect": false
+            },
+            {
+              "id": 11,
+              "testId": 3,
+              "optionText": "Нет, ключевые слова всегда зарезервированы.",
+              "isCorrect": false
+            },
+            {
+              "id": 12,
+              "testId": 3,
+              "optionText": "Да, если перед ним поставить символ @",
+              "isCorrect": true
+            },
+            {
+              "id": 13,
+              "testId": 3,
+              "optionText": "Да, но только в комментариях.",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "sectionId": 1,
+          "question": "Верно, что имя переменной в языке C# может:",
+          "isCodeTest": false,
+          "correctAnswer": "начинаться только с буквы или символа подчеркивания,включать буквы русского алфавита",
+          "testNumber": 4,
+          "options": [
+            {
+              "id": 14,
+              "testId": 4,
+              "optionText": "начинаться с буквы или цифры",
+              "isCorrect": false
+            },
+            {
+              "id": 15,
+              "testId": 4,
+              "optionText": "начинаться только с буквы или символа подчеркивания",
+              "isCorrect": true
+            },
+            {
+              "id": 16,
+              "testId": 4,
+              "optionText": "cодержать пробел для повышения читабельности",
+              "isCorrect": false
+            },
+            {
+              "id": 17,
+              "testId": 4,
+              "optionText": "включать буквы русского алфавита",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "sectionId": 1,
+          "question": "Какой из следующих примеров является строковым литералом?",
+          "isCodeTest": false,
+          "correctAnswer": "Hello, World!",
+          "testNumber": 5,
+          "options": [
+            {
+              "id": 18,
+              "testId": 5,
+              "optionText": "123",
+              "isCorrect": false
+            },
+            {
+              "id": 19,
+              "testId": 5,
+              "optionText": "Hello, World!",
+              "isCorrect": true
+            },
+            {
+              "id": 20,
+              "testId": 5,
+              "optionText": "'A'",
+              "isCorrect": false
+            },
+            {
+              "id": 21,
+              "testId": 5,
+              "optionText": "null",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "sectionId": 1,
+          "question": "Что такое 0x2A в контексте литералов C#?",
+          "isCodeTest": false,
+          "correctAnswer": "Шестнадцатеричное число",
+          "testNumber": 6,
+          "options": [
+            {
+              "id": 22,
+              "testId": 6,
+              "optionText": "Двоичное число",
+              "isCorrect": false
+            },
+            {
+              "id": 23,
+              "testId": 6,
+              "optionText": "Символьный литерал",
+              "isCorrect": false
+            },
+            {
+              "id": 24,
+              "testId": 6,
+              "optionText": "Шестнадцатеричное число",
+              "isCorrect": true
+            },
+            {
+              "id": 25,
+              "testId": 6,
+              "optionText": "Вещественное число",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "sectionId": 1,
+          "question": "Что из перечисленного относится к ссылочным типам в C#?",
+          "isCodeTest": false,
+          "correctAnswer": "class",
+          "testNumber": 7,
+          "options": [
+            {
+              "id": 26,
+              "testId": 7,
+              "optionText": "int",
+              "isCorrect": false
+            },
+            {
+              "id": 27,
+              "testId": 7,
+              "optionText": "struct",
+              "isCorrect": false
+            },
+            {
+              "id": 28,
+              "testId": 7,
+              "optionText": "class",
+              "isCorrect": true
+            },
+            {
+              "id": 29,
+              "testId": 7,
+              "optionText": "bool",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "sectionId": 1,
+          "question": "Основной (главный) метод консольного приложения на языке C# может иметь заголовок:",
+          "isCodeTest": false,
+          "correctAnswer": "public static void Main(string[] args),public static void Main()",
+          "testNumber": 8,
+          "options": [
+            {
+              "id": 30,
+              "testId": 8,
+              "optionText": "public static void main(string[] args)",
+              "isCorrect": false
+            },
+            {
+              "id": 31,
+              "testId": 8,
+              "optionText": "public static void main()",
+              "isCorrect": false
+            },
+            {
+              "id": 32,
+              "testId": 8,
+              "optionText": "public static void Main(string[] args)",
+              "isCorrect": true
+            },
+            {
+              "id": 33,
+              "testId": 8,
+              "optionText": "public static void Main()",
+              "isCorrect": true
+            },
+            {
+              "id": 34,
+              "testId": 8,
+              "optionText": "public static void Main(String args)",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "sectionId": 1,
+          "question": "Что произойдёт, если попытаться неявно привести int к short?",
+          "isCodeTest": false,
+          "correctAnswer": "Ошибка компиляции",
+          "testNumber": 9,
+          "options": [
+            {
+              "id": 35,
+              "testId": 9,
+              "optionText": "Ошибка компиляции",
+              "isCorrect": true
+            },
+            {
+              "id": 36,
+              "testId": 9,
+              "optionText": "Преобразование произойдёт успешно",
+              "isCorrect": false
+            },
+            {
+              "id": 37,
+              "testId": 9,
+              "optionText": "Потеряется часть данных",
+              "isCorrect": false
+            },
+            {
+              "id": 38,
+              "testId": 9,
+              "optionText": "Программа завершится с исключением",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "sectionId": 1,
+          "question": "Для чего используется директива using static в C#?",
+          "isCodeTest": false,
+          "correctAnswer": "Для использования статических членов класса без указания имени класса.",
+          "testNumber": 10,
+          "options": [
+            {
+              "id": 39,
+              "testId": 10,
+              "optionText": "Для использования статических членов класса без указания имени класса.",
+              "isCorrect": true
+            },
+            {
+              "id": 40,
+              "testId": 10,
+              "optionText": "Для создания глобальных переменных.",
+              "isCorrect": false
+            },
+            {
+              "id": 41,
+              "testId": 10,
+              "optionText": "Для импорта библиотек.",
+              "isCorrect": false
+            },
+            {
+              "id": 42,
+              "testId": 10,
+              "optionText": "Для создания псевдонимов типов.",
+              "isCorrect": false
+            }
+          ]
+        },
+		{
+          "id": 11,
+          "sectionId": 1,
+          "question": "Как завершится следующий код?\nusing static System.Console;\nclass Program {\nstatic void Main() {\nWriteLine(\"World!\");\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "World!",
+          "testNumber": 11,
+          "options": []
+        },
+        {
+          "id": 12,
+          "sectionId": 1,
+          "question": "Какие из следующих идентификаторов допустим в C#?",
+          "isCodeTest": false,
+          "correctAnswer": "_secondValue",
+          "testNumber": 12,
+          "options": [
+            {
+              "id": 43,
+              "testId": 12,
+              "optionText": "2ndValue",
+              "isCorrect": false
+            },
+            {
+              "id": 44,
+              "testId": 12,
+              "optionText": "_secondValue",
+              "isCorrect": true
+            },
+            {
+              "id": 45,
+              "testId": 12,
+              "optionText": "public",
+              "isCorrect": false
+            },
+            {
+              "id": 46,
+              "testId": 12,
+              "optionText": "my-number",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "sectionId": 1,
+          "question": "Что произойдет при выполнении следующего кода?\nusing System;\nint @int = 10;\nConsole.WriteLine(@int);",
+          "isCodeTest": true,
+          "correctAnswer": "10",
+          "testNumber": 13,
+          "options": []
+        },
+        {
+          "id": 14,
+          "sectionId": 1,
+          "question": "Какой из следующих типов данных является ссылочным?",
+          "isCodeTest": false,
+          "correctAnswer": "string",
+          "testNumber": 14,
+          "options": [
+            {
+              "id": 47,
+              "testId": 14,
+              "optionText": "int",
+              "isCorrect": false
+            },
+            {
+              "id": 48,
+              "testId": 14,
+              "optionText": "double",
+              "isCorrect": false
+            },
+            {
+              "id": 49,
+              "testId": 14,
+              "optionText": "string",
+              "isCorrect": true
+            },
+            {
+              "id": 50,
+              "testId": 14,
+              "optionText": "bool",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "sectionId": 1,
+          "question": "Какое значение по умолчанию имеет переменная типа bool?",
+          "isCodeTest": false,
+          "correctAnswer": "False",
+          "testNumber": 15,
+          "options": [
+            {
+              "id": 51,
+              "testId": 15,
+              "optionText": "True",
+              "isCorrect": false
+            },
+            {
+              "id": 52,
+              "testId": 15,
+              "optionText": "False",
+              "isCorrect": true
+            },
+            {
+              "id": 53,
+              "testId": 15,
+              "optionText": "null",
+              "isCorrect": false
+            },
+            {
+              "id": 54,
+              "testId": 15,
+              "optionText": "Ошибка компиляции, если переменная не инициализирована",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "sectionId": 1,
+          "question": "Какой из следующих методов предпочтительнее использовать для безопасного преобразования строки в число?",
+          "isCodeTest": false,
+          "correctAnswer": "int.TryParse()",
+          "testNumber": 16,
+          "options": [
+            {
+              "id": 55,
+              "testId": 16,
+              "optionText": "Convert.ToInt32()",
+              "isCorrect": false
+            },
+            {
+              "id": 56,
+              "testId": 16,
+              "optionText": "int.Parse()",
+              "isCorrect": false
+            },
+            {
+              "id": 57,
+              "testId": 16,
+              "optionText": "int.TryParse()",
+              "isCorrect": true
+            },
+            {
+              "id": 58,
+              "testId": 16,
+              "optionText": "ToString()",
+              "isCorrect": false
+            }
+          ]
+        },
+		{
+          "id": 17,
+          "sectionId": 1,
+          "question": "Что произойдёт при выполнение данного фрагмента кода?\nusing System;\nclass Program\n{\npublic static void Main()\n{\nfor (int i = 0; i < 5; i++)\n{\nConsole.WriteLine(i);\n}\nConsole.WriteLine(i);\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "*",
+          "testNumber": 17,
+          "options": []
+        },
+        {
+          "id": 18,
+          "sectionId": 1,
+          "question": "Что из перечисленного не является ключевым словом C#?",
+          "isCodeTest": false,
+          "correctAnswer": "throws",
+          "testNumber": 18,
+          "options": [
+            {
+              "id": 59,
+              "testId": 18,
+              "optionText": "sizeof",
+              "isCorrect": false
+            },
+            {
+              "id": 60,
+              "testId": 18,
+              "optionText": "namespace",
+              "isCorrect": false
+            },
+            {
+              "id": 61,
+              "testId": 18,
+              "optionText": "throws",
+              "isCorrect": true
+            },
+            {
+              "id": 62,
+              "testId": 18,
+              "optionText": "volatile",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "sectionId": 1,
+          "question": "Для хранения значения переменной типа short в языке С# выделяется память, размером:",
+          "isCodeTest": false,
+          "correctAnswer": "2 байта",
+          "testNumber": 19,
+          "options": [
+            {
+              "id": 63,
+              "testId": 19,
+              "optionText": "2 байта",
+              "isCorrect": true
+            },
+            {
+              "id": 64,
+              "testId": 19,
+              "optionText": "4 байта",
+              "isCorrect": false
+            },
+            {
+              "id": 65,
+              "testId": 19,
+              "optionText": "не определённым спецификацией языка C# и зависящим от реализации системы программирования",
+              "isCorrect": false
+            },
+            {
+              "id": 66,
+              "testId": 19,
+              "optionText": "определенным длинной машинного слова процессора",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "sectionId": 1,
+          "question": "Для хранения значения переменной типа int в языке С# выделяется память, размером:",
+          "isCodeTest": false,
+          "correctAnswer": "4 байта",
+          "testNumber": 20,
+          "options": [
+            {
+              "id": 67,
+              "testId": 20,
+              "optionText": "2 байта",
+              "isCorrect": false
+            },
+            {
+              "id": 68,
+              "testId": 20,
+              "optionText": "4 байта",
+              "isCorrect": true
+            },
+            {
+              "id": 69,
+              "testId": 20,
+              "optionText": "не определённым спецификацией языка C# и зависящим от реализации системы программирования",
+              "isCorrect": false
+            },
+            {
+              "id": 70,
+              "testId": 20,
+              "optionText": "определенным длинной машинного слова процессора",
+              "isCorrect": false
+            }
+          ]
+        }, 
+		{
+          "id": 21,
+          "sectionId": 1,
+          "question": "Для хранения значения переменной типа ulong в языке С# выделяется память, размером:",
+          "isCodeTest": false,
+          "correctAnswer": "8 байт",
+          "testNumber": 21,
+          "options": [
+            {
+              "id": 71,
+              "testId": 21,
+              "optionText": "2 байта",
+              "isCorrect": false
+            },
+            {
+              "id": 72,
+              "testId": 21,
+              "optionText": "4 байта",
+              "isCorrect": false
+            },
+            {
+              "id": 73,
+              "testId": 21,
+              "optionText": "8 байт",
+              "isCorrect": true
+            },
+            {
+              "id": 74,
+              "testId": 21,
+              "optionText": "не определённым спецификацией языка C# и зависящим от реализации системы программирования",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "sectionId": 1,
+          "question": "Для хранения значения переменной типа double в языке С# выделяется память, размером:",
+          "isCodeTest": false,
+          "correctAnswer": "8 байт",
+          "testNumber": 22,
+          "options": [
+            {
+              "id": 75,
+              "testId": 22,
+              "optionText": "2 байта",
+              "isCorrect": false
+            },
+            {
+              "id": 76,
+              "testId": 22,
+              "optionText": "4 байта",
+              "isCorrect": false
+            },
+            {
+              "id": 77,
+              "testId": 22,
+              "optionText": "8 байт",
+              "isCorrect": true
+            },
+            {
+              "id": 78,
+              "testId": 22,
+              "optionText": "не определённым спецификацией языка C#",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "sectionId": 1,
+          "question": "Что из перечисленного является ключевым словом в C#?",
+          "isCodeTest": false,
+          "correctAnswer": "static, void, private",
+          "testNumber": 23,
+          "options": [
+            {
+              "id": 79,
+              "testId": 23,
+              "optionText": "static",
+              "isCorrect": true
+            },
+            {
+              "id": 80,
+              "testId": 23,
+              "optionText": "number",
+              "isCorrect": false
+            },
+            {
+              "id": 81,
+              "testId": 23,
+              "optionText": "void",
+              "isCorrect": true
+            },
+            {
+              "id": 82,
+              "testId": 23,
+              "optionText": "private",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "sectionId": 1,
+          "question": "Какой из следующих идентификаторов нельзя использовать в программе?",
+          "isCodeTest": false,
+          "correctAnswer": "int",
+          "testNumber": 24,
+          "options": [
+            {
+              "id": 83,
+              "testId": 24,
+              "optionText": "_static",
+              "isCorrect": false
+            },
+            {
+              "id": 84,
+              "testId": 24,
+              "optionText": "_123",
+              "isCorrect": false
+            },
+            {
+              "id": 85,
+              "testId": 24,
+              "optionText": "@class",
+              "isCorrect": false
+            },
+            {
+              "id": 86,
+              "testId": 24,
+              "optionText": "int",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "sectionId": 1,
+          "question": "Чем завершится код?\nusing System;\nclass Program\n{\npublic static void Main()\n{\ndouble x = 5.7;\nint y = (int)x;\nConsole.WriteLine(y);\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "5",
+          "testNumber": 25,
+          "options": []
+        },
+        {
+          "id": 26,
+          "sectionId": 1,
+          "question": "Какое из следующих преобразований является неявным?",
+          "isCodeTest": false,
+          "correctAnswer": "int → double",
+          "testNumber": 26,
+          "options": [
+            {
+              "id": 87,
+              "testId": 26,
+              "optionText": "int → double",
+              "isCorrect": true
+            },
+            {
+              "id": 88,
+              "testId": 26,
+              "optionText": "double → int",
+              "isCorrect": false
+            },
+            {
+              "id": 89,
+              "testId": 26,
+              "optionText": "float → decimal",
+              "isCorrect": false
+            },
+            {
+              "id": 90,
+              "testId": 26,
+              "optionText": "decimal → float",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "sectionId": 1,
+          "question": "Что произойдёт при выполнении следующего кода?\nusing System;\nclass Program\n{\npublic static void Main()\n{\n{\nint a = 10;\n}\nConsole.WriteLine(a);\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "*",
+          "testNumber": 27,
+          "options": []
+        },
+        {
+          "id": 28,
+          "sectionId": 1,
+          "question": "Какой стиль используется для именования методов в C#?",
+          "isCodeTest": false,
+          "correctAnswer": "PascalCase",
+          "testNumber": 28,
+          "options": [
+            {
+              "id": 91,
+              "testId": 28,
+              "optionText": "PascalCase",
+              "isCorrect": true
+            },
+            {
+              "id": 92,
+              "testId": 28,
+              "optionText": "camelCase",
+              "isCorrect": false
+            },
+            {
+              "id": 93,
+              "testId": 28,
+              "optionText": "snake_case",
+              "isCorrect": false
+            },
+            {
+              "id": 94,
+              "testId": 28,
+              "optionText": "kebab-case",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "sectionId": 1,
+          "question": "Для хранения значения переменной типа sbyte в языке С# выделяется память, размером:",
+          "isCodeTest": false,
+          "correctAnswer": "1 байт",
+          "testNumber": 29,
+          "options": [
+            {
+              "id": 95,
+              "testId": 29,
+              "optionText": "1 байт",
+              "isCorrect": true
+            },
+            {
+              "id": 96,
+              "testId": 29,
+              "optionText": "2 байта",
+              "isCorrect": false
+            },
+            {
+              "id": 97,
+              "testId": 29,
+              "optionText": "4 байта",
+              "isCorrect": false
+            },
+            {
+              "id": 98,
+              "testId": 29,
+              "optionText": "не определённым спецификацией языка C#",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "sectionId": 1,
+          "question": "Для хранения значения переменной типа char в языке С# выделяется память, размером:",
+          "isCodeTest": false,
+          "correctAnswer": "2 байта",
+          "testNumber": 30,
+          "options": [
+            {
+              "id": 99,
+              "testId": 30,
+              "optionText": "1 байт",
+              "isCorrect": false
+            },
+            {
+              "id": 100,
+              "testId": 30,
+              "optionText": "2 байта",
+              "isCorrect": true
+            },
+            {
+              "id": 101,
+              "testId": 30,
+              "optionText": "4 байта",
+              "isCorrect": false
+            },
+            {
+              "id": 102,
+              "testId": 30,
+              "optionText": "не определённым спецификацией языка C#",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "sectionId": 1,
+          "question": "Что из перечисленного является обязательным для объявления переменной?",
+          "isCodeTest": false,
+          "correctAnswer": "Указание типа переменной и имя переменной",
+          "testNumber": 31,
+          "options": [
+            {
+              "id": 103,
+              "testId": 31,
+              "optionText": "Указание типа переменной",
+              "isCorrect": true
+            },
+            {
+              "id": 104,
+              "testId": 31,
+              "optionText": "Указание начального значения переменной",
+              "isCorrect": false
+            },
+            {
+              "id": 105,
+              "testId": 31,
+              "optionText": "Имя переменной",
+              "isCorrect": true
+            },
+            {
+              "id": 106,
+              "testId": 31,
+              "optionText": "Использование модификатора доступа",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "sectionId": 1,
+          "question": "Что выведет код?\nusing System;\nclass Program\n{\npublic static void Main()\n{\nint x = 5;\nint y = ++x;\nConsole.WriteLine(x + y);\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "12",
+          "testNumber": 32,
+          "options": []
+        },
+        {
+          "id": 33,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program\n{\npublic static void Main()\n{\nint x = 10;\nint y = x > 5 ? x - 5 : x + 5;\nConsole.WriteLine(y);\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "5",
+          "testNumber": 33,
+          "options": []
+        },
+        {
+          "id": 34,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program\n{\npublic static void Main()\n{\nint x = 10;\nint y = -x++;\nConsole.WriteLine(x + y);\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "1",
+          "testNumber": 34,
+          "options": []
+        },
+        {
+          "id": 35,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program\n{\npublic static void Main()\n{\nbool a = true, b = false;\nbool c = a && b || a;\nConsole.WriteLine(c);\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "True",
+          "testNumber": 35,
+          "options": []
+        },
+        {
+          "id": 36,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program\n{\npublic static void Main()\n{\nint x = 5;\nx *= 2 + 3;\nConsole.WriteLine(x);\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "25",
+          "testNumber": 36,
+          "options": []
+        },
+        {
+          "id": 37,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program\n{\npublic static void Main()\n{\nint i = 1;\nint j = 2;\ni += (++i + j++);\nConsole.WriteLine(i);\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "5",
+          "testNumber": 37,
+          "options": []
+        },
+        {
+          "id": 38,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program\n{\npublic static void Main()\n{\nint i = 3;\nint j = 2;\ni *= j++ + ++i;\nConsole.WriteLine(i);\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "18",
+          "testNumber": 38,
+          "options": []
+		},
+		{
+          "id": 39,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program\n{\npublic static void Main()\n{\nint x = 10, y = 20;\nx = y = x + y;\nConsole.WriteLine(x);\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "30",
+          "testNumber": 39,
+          "options": []
+        },
+        {
+          "id": 40,
+          "sectionId": 1,
+          "question": "Какое из выражений нужно подставить вместо знаков вопроса, чтобы вывелось True:\nusing System;\nclass Program\n{\npublic static void Main()\n{\nint a = 1, b = 5;\nbool some = false;\nbool result = ????;\nConsole.WriteLine(result);\n}\n}",
+          "isCodeTest": false,
+          "correctAnswer": "(b > 5 && a <= 3) || (!some || a < 1)",
+          "testNumber": 40,
+          "options": [
+            {
+              "id": 107,
+              "testId": 40,
+              "optionText": "(b <= 5 || a == 3) && some",
+              "isCorrect": false
+            },
+            {
+              "id": 108,
+              "testId": 40,
+              "optionText": "(b != 5 || a == 3) || (!some && a > 1)",
+              "isCorrect": false
+            },
+            {
+              "id": 109,
+              "testId": 40,
+              "optionText": "(some && a != 2) || b > 5",
+              "isCorrect": false
+            },
+            {
+              "id": 110,
+              "testId": 40,
+              "optionText": "some || a == 4 || b < 3",
+              "isCorrect": false
+            },
+            {
+              "id": 111,
+              "testId": 40,
+              "optionText": "(b > 5 && a <= 3) || (!some || a < 1)",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 41,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program\n{\nstatic int num = 0;\npublic static void Main(string[] args)\n{\ntestFunc(num);\ntestFunc(num);\n}\npublic static void testFunc(int num)\n{\nProgram.num++;\nConsole.Write(Program.num);\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "12",
+          "testNumber": 41,
+          "options": []
+        },
+        {
+          "id": 42,
+          "sectionId": 1,
+          "question": "Где правильно создана переменная?",
+          "isCodeTest": false,
+          "correctAnswer": "char symbol = 'A'",
+          "testNumber": 42,
+          "options": [
+            {
+              "id": 112,
+              "testId": 42,
+              "optionText": "float big_num = 23.2234",
+              "isCorrect": false
+            },
+            {
+              "id": 113,
+              "testId": 42,
+              "optionText": "$x = 10",
+              "isCorrect": false
+            },
+            {
+              "id": 114,
+              "testId": 42,
+              "optionText": "x = 0",
+              "isCorrect": false
+            },
+            {
+              "id": 115,
+              "testId": 42,
+              "optionText": "int n = '1'",
+              "isCorrect": false
+            },
+            {
+              "id": 116,
+              "testId": 42,
+              "optionText": "char symbol = 'A'",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 43,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program\n{\npublic static void Main(string[] args)\n{\nint x = 10;\nbool flag = x > 10;\nif (flag = false)\nConsole.Write(\"Here\");\nelse\nConsole.Write(\"There\");\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "There",
+          "testNumber": 43,
+          "options": []
+        },
+        {
+          "id": 44,
+          "sectionId": 1,
+          "question": "Подряд без пробелов перечислите номера строк, содержащих синтаксические ошибки:\nclass Program\n{\npublic static void Main(string[] args)\n{\nchar a = 98; // 1\nint b = 98; // 2\nchar c = 'a'; // 3\nint d = 'a'; // 4\nint e = \"a\"; // 5\nlong = 16; // 6\nshort f = 1; // 7\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "156",
+          "testNumber": 44,
+          "options": []
+        },
+        {
+          "id": 45,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program\n{\npublic static void Main(string[] args)\n{\nfor (int i = 0; i < 5; i += 2)\n{\nConsole.Write(i);\n}\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "024",
+          "testNumber": 45,
+          "options": []
+        },
+        {
+          "id": 46,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program\n{\npublic static void Main(string[] args)\n{\nint i = 0;\nwhile (i++ < 5)\n{\nConsole.Write(i);\n}\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "12345",
+          "testNumber": 46,
+          "options": []
+        },
+        {
+          "id": 47,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program\n{\npublic static void Main(string[] args)\n{\nfor (int i = 1; i <= 3; i++)\n{\nfor (int j = 1; j <= i; j++)\n{\nConsole.Write(i * j);\n}\n}\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "124369",
+          "testNumber": 47,
+          "options": []
+        },
+        {
+          "id": 48,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program\n{\nstatic void Swap(ref int a, ref int b)\n{\nint temp = a;\na = b;\nb = temp;\n}\npublic static void Main(string[] args)\n{\nint x = 5, y = 10;\nSwap(ref x, ref y);\nConsole.WriteLine($\"{x}{y}\");\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "105",
+          "testNumber": 48,
+          "options": []
+        },
+        {
+          "id": 49,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program\n{\npublic static void Main(string[] args)\n{\nint z = 18, e, r = z;\ne = z >> 4 != 0 ? r++ - 3 : z + 3;\nConsole.Write(e);\nConsole.WriteLine(e % 3 == 0 || z - r == 0 ? z-- - e : z + e);\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "153",
+          "testNumber": 49,
+          "options": []
+        },
+        {
+          "id": 50,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program\n{\nstatic int num = 0;\npublic static void Main(string[] args)\n{\ntestFunc(num);\ntestFunc(num);\n}\npublic static void testFunc(int num)\n{\nnum++;\nConsole.Write(num);\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "11",
+          "testNumber": 50,
+          "options": []
+        },
+        {
+          "id": 51,
+          "sectionId": 1,
+          "question": "Какие ограничения накладываются на константы в C#?",
+          "isCodeTest": false,
+          "correctAnswer": "Их значение должно быть известно на этапе компиляции",
+          "testNumber": 51,
+          "options": [
+            {
+              "id": 117,
+              "testId": 51,
+              "optionText": "Они могут быть объявлены только внутри методов",
+              "isCorrect": false
+            },
+            {
+              "id": 118,
+              "testId": 51,
+              "optionText": "Они не могут использоваться в статических классах",
+              "isCorrect": false
+            },
+            {
+              "id": 119,
+              "testId": 51,
+              "optionText": "Их значение должно быть известно на этапе компиляции",
+              "isCorrect": true
+            },
+            {
+              "id": 120,
+              "testId": 51,
+              "optionText": "Они должны быть объявлены с модификатором static",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 52,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program\n{\npublic static void Main(string[] args)\n{\nint s = 51 % 5, a;\na = s == 2 ? ++s : s--;\nConsole.WriteLine(a.ToString());\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "1",
+          "testNumber": 52,
+          "options": []
+        },
+        {
+          "id": 53,
+          "sectionId": 1,
+          "question": "Какой модификатор параметра метода необходимо использовать, чтобы изменения значений параметров внутри метода отражались на значениях аргументов при вызове?",
+          "isCodeTest": false,
+          "correctAnswer": "ref",
+          "testNumber": 53,
+          "options": [
+            {
+              "id": 121,
+              "testId": 53,
+              "optionText": "ref",
+              "isCorrect": true
+            },
+            {
+              "id": 122,
+              "testId": 53,
+              "optionText": "out",
+              "isCorrect": false
+            },
+            {
+              "id": 123,
+              "testId": 53,
+              "optionText": "params",
+              "isCorrect": false
+            },
+            {
+              "id": 124,
+              "testId": 53,
+              "optionText": "in",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 54,
+          "sectionId": 1,
+          "question": "Какое значение по умолчанию будет присвоено переменной типа string при объявлении?",
+          "isCodeTest": false,
+          "correctAnswer": "null",
+          "testNumber": 54,
+          "options": [
+            {
+              "id": 125,
+              "testId": 54,
+              "optionText": "пустая строка",
+              "isCorrect": false
+            },
+            {
+              "id": 126,
+              "testId": 54,
+              "optionText": "0",
+              "isCorrect": false
+            },
+            {
+              "id": 127,
+              "testId": 54,
+              "optionText": "null",
+              "isCorrect": true
+            },
+            {
+              "id": 128,
+              "testId": 54,
+              "optionText": "undefined",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 55,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program\n{\npublic static void Main(string[] args)\n{\nint s = 5, i = s <= 5 ? -10 : s + 10;\nConsole.WriteLine(i);\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "-10",
+          "testNumber": 55,
+          "options": []
+        },
+		{
+          "id": 56,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program\n{\npublic static void Main(string[] args)\n{\nint i = 9;\nwhile (i > 0)\n{\ndo\n{\nif (i > 4) Console.Write(i % 3);\n} while (i-- > 3);\nConsole.WriteLine(--i);\nbreak;\n}\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "021021",
+          "testNumber": 56,
+          "options": []
+        },
+        {
+          "id": 57,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program\n{\npublic static void Main(string[] args)\n{\nint i = 7;\nwhile (i > 0)\n{\ndo\n{\nif (i > 3) Console.Write(i);\n}while (i-- > 2);\nConsole.Write(i);\nbreak;\n}\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "76541",
+          "testNumber": 57,
+          "options": []
+        },
+        {
+          "id": 58,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program\n{\npublic static void Main(string[] args)\n{\nint i = 0, j = 5, k = 0;\nwhile (i < j)\n{\ni++; j--;\nk = --j + (i++) % 2;\n}\nConsole.Write(k);\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "2",
+          "testNumber": 58,
+          "options": []
+        },
+        {
+          "id": 59,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program\n{\npublic static void Main(string[] args)\n{\nsbyte q = 120, p = 120, s = (sbyte)(q + p);\nConsole.Write(s);\nConsole.Write(q + p);\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "-16240",
+          "testNumber": 59,
+          "options": []
+        },
+        {
+          "id": 60,
+          "sectionId": 1,
+          "question": "Что произойдет при попытке объявить два метода Swap с одинаковыми параметрами (int x, int y)?",
+          "isCodeTest": false,
+          "correctAnswer": "Ошибка компиляции",
+          "testNumber": 60,
+          "options": [
+            {
+              "id": 129,
+              "testId": 60,
+              "optionText": "Методы будут успешно перегружены",
+              "isCorrect": false
+            },
+            {
+              "id": 130,
+              "testId": 60,
+              "optionText": "Ошибка компиляции",
+              "isCorrect": true
+            },
+            {
+              "id": 131,
+              "testId": 60,
+              "optionText": "Будет вызываться первый объявленный метод",
+              "isCorrect": false
+            },
+            {
+              "id": 132,
+              "testId": 60,
+              "optionText": "Будет вызываться второй объявленный метод",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 61,
+          "sectionId": 1,
+          "question": "Какой модификатор параметра в C# используется для передачи аргумента по ссылке, но запрещает его модификацию внутри метода?",
+          "isCodeTest": false,
+          "correctAnswer": "in",
+          "testNumber": 61,
+          "options": [
+            {
+              "id": 133,
+              "testId": 61,
+              "optionText": "ref",
+              "isCorrect": false
+            },
+            {
+              "id": 134,
+              "testId": 61,
+              "optionText": "out",
+              "isCorrect": false
+            },
+            {
+              "id": 135,
+              "testId": 61,
+              "optionText": "params",
+              "isCorrect": false
+            },
+            {
+              "id": 136,
+              "testId": 61,
+              "optionText": "in",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 62,
+          "sectionId": 1,
+          "question": "Какая ошибка компиляции возникнет в следующем коде?\nusing System;\nclass Program\n{\nstatic void MoveF(ref double fVal, in double c, out int fInt) => fVal += c + fInt;\npublic static void Main(string[] args)\n{\ndouble value = 1;\ndouble c = 4;\nMoveF(ref value, in c, out int fInt);\n}\n}",
+          "isCodeTest": false,
+          "correctAnswer": "Переменная fInt должна получить значение внутри метода, но не получает",
+          "testNumber": 62,
+          "options": [
+            {
+              "id": 137,
+              "testId": 62,
+              "optionText": "Переменная fInt должна получить значение внутри метода, но не получает",
+              "isCorrect": true
+            },
+            {
+              "id": 138,
+              "testId": 62,
+              "optionText": "Параметр in не может быть изменён внутри метода",
+              "isCorrect": false
+            },
+            {
+              "id": 139,
+              "testId": 62,
+              "optionText": "Параметр ref не может использоваться в лямбда-выражении",
+              "isCorrect": false
+            },
+            {
+              "id": 140,
+              "testId": 62,
+              "optionText": "Параметр out нельзя использовать в лямбда-выражении",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 63,
+          "sectionId": 1,
+          "question": "Какая ошибка компиляции возникнет в следующем коде?\nusing System;\nclass Program\n{\nstatic void MoveF(ref double fVal, in double c, out int fInt)\n{\nfInt = 1;\nfVal += c + fInt;\n}\npublic static void Main(string[] args)\n{\ndouble value = 1;\ndouble c;\nMoveF(ref value, in c, out int fInt);\n}\n}",
+          "isCodeTest": false,
+          "correctAnswer": "Использование неинициализированной переменной с модификатором in",
+          "testNumber": 63,
+          "options": [
+            {
+              "id": 141,
+              "testId": 63,
+              "optionText": "Ошибка использования ref параметра",
+              "isCorrect": false
+            },
+            {
+              "id": 142,
+              "testId": 63,
+              "optionText": "Присвоение значения переменной с модификатором out",
+              "isCorrect": false
+            },
+            {
+              "id": 143,
+              "testId": 63,
+              "optionText": "Параметр in не может быть изменён внутри метода",
+              "isCorrect": false
+            },
+            {
+              "id": 144,
+              "testId": 63,
+              "optionText": "Использование неинициализированной переменной с модификатором in",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 64,
+          "sectionId": 1,
+          "question": "Какой модификатор параметра следует использовать, если метод должен назначить значение параметру и вернуть его вызывающей стороне?",
+          "isCodeTest": false,
+          "correctAnswer": "out",
+          "testNumber": 64,
+          "options": [
+            {
+              "id": 145,
+              "testId": 64,
+              "optionText": "ref",
+              "isCorrect": false
+            },
+            {
+              "id": 146,
+              "testId": 64,
+              "optionText": "out",
+              "isCorrect": true
+            },
+            {
+              "id": 147,
+              "testId": 64,
+              "optionText": "params",
+              "isCorrect": false
+            },
+            {
+              "id": 148,
+              "testId": 64,
+              "optionText": "in",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 65,
+          "sectionId": 1,
+          "question": "Какая из следующих сигнатур соответствует статическому методу?",
+          "isCodeTest": false,
+          "correctAnswer": "public static int Sum(int x, int y)",
+          "testNumber": 65,
+          "options": [
+            {
+              "id": 149,
+              "testId": 65,
+              "optionText": "public int Sum(int x, int y)",
+              "isCorrect": false
+            },
+            {
+              "id": 150,
+              "testId": 65,
+              "optionText": "public static int Sum(int x, int y)",
+              "isCorrect": true
+            },
+            {
+              "id": 151,
+              "testId": 65,
+              "optionText": "private static Sum(int x, int y)",
+              "isCorrect": false
+            },
+            {
+              "id": 152,
+              "testId": 65,
+              "optionText": "static void Sum { int x, int y }",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 66,
+          "sectionId": 1,
+          "question": "Что произойдет, если не инициализировать параметр перед его передачей с модификатором ref?",
+          "isCodeTest": false,
+          "correctAnswer": "Возникнет ошибка компиляции",
+          "testNumber": 66,
+          "options": [
+            {
+              "id": 153,
+              "testId": 66,
+              "optionText": "Возникнет ошибка компиляции",
+              "isCorrect": true
+            },
+            {
+              "id": 154,
+              "testId": 66,
+              "optionText": "Параметр будет инициализирован значением по умолчанию",
+              "isCorrect": false
+            },
+            {
+              "id": 155,
+              "testId": 66,
+              "optionText": "Метод выполнится, но результат будет непредсказуемым",
+              "isCorrect": false
+            },
+            {
+              "id": 156,
+              "testId": 66,
+              "optionText": "Программа завершится с исключением",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 67,
+          "sectionId": 1,
+          "question": "Что является признаком корректной перегрузки методов?",
+          "isCodeTest": false,
+          "correctAnswer": "Различие в количестве, типах или порядке параметров",
+          "testNumber": 67,
+          "options": [
+            {
+              "id": 157,
+              "testId": 67,
+              "optionText": "Различие в количестве, типах или порядке параметров",
+              "isCorrect": true
+            },
+            {
+              "id": 158,
+              "testId": 67,
+              "optionText": "Различие в модификаторах доступа",
+              "isCorrect": false
+            },
+            {
+              "id": 159,
+              "testId": 67,
+              "optionText": "Различие в возвращаемом типе",
+              "isCorrect": false
+            },
+            {
+              "id": 160,
+              "testId": 67,
+              "optionText": "Различие в использовании статических и нестатических методов",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 68,
+          "sectionId": 1,
+          "question": "Может ли метод с одинаковой сигнатурой быть определен в одном классе дважды?",
+          "isCodeTest": false,
+          "correctAnswer": "Нет, это вызовет ошибку компиляции",
+          "testNumber": 68,
+          "options": [
+            {
+              "id": 161,
+              "testId": 68,
+              "optionText": "Да, если методы имеют разный модификатор доступа",
+              "isCorrect": false
+            },
+            {
+              "id": 162,
+              "testId": 68,
+              "optionText": "Да, если методы определены с разной областью видимости",
+              "isCorrect": false
+            },
+            {
+              "id": 163,
+              "testId": 68,
+              "optionText": "Нет, это вызовет ошибку компиляции",
+              "isCorrect": true
+            },
+            {
+              "id": 164,
+              "testId": 68,
+              "optionText": "Да, если один из методов статический",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 69,
+          "sectionId": 1,
+          "question": "Какие модификаторы можно использовать для передачи параметров в методах C#?",
+          "isCodeTest": false,
+          "correctAnswer": "ref, in, out, params",
+          "testNumber": 69,
+          "options": [
+            {
+              "id": 165,
+              "testId": 69,
+              "optionText": "ref, in, out, params",
+              "isCorrect": true
+            },
+            {
+              "id": 166,
+              "testId": 69,
+              "optionText": "ref, static, in, params",
+              "isCorrect": false
+            },
+            {
+              "id": 167,
+              "testId": 69,
+              "optionText": "public, private, protected, internal",
+              "isCorrect": false
+            },
+            {
+              "id": 168,
+              "testId": 69,
+              "optionText": "readonly, const, sealed, abstract",
+              "isCorrect": false
+            }
+          ]
+        },
+		{
+          "id": 70,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program {\nstatic void ModifyArray(ref int[] arr) {\narr = new int[] { 10, 20, 30 };\n}\npublic static void Main(string[] args) {\nint[] numbers = { 1, 2, 3 };\nModifyArray(ref numbers);\nConsole.WriteLine(string.Join(\"\", numbers));\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "102030",
+          "testNumber": 70,
+          "options": []
+        },
+        {
+          "id": 71,
+          "sectionId": 1,
+          "question": "Что происходит при использовании модификатора ref в методах C#?",
+          "isCodeTest": false,
+          "correctAnswer": "Метод получает доступ к оригинальной переменной, и изменения видны вызывающему коду",
+          "testNumber": 71,
+          "options": [
+            {
+              "id": 169,
+              "testId": 71,
+              "optionText": "Значение копируется в метод и не может быть изменено",
+              "isCorrect": false
+            },
+            {
+              "id": 170,
+              "testId": 71,
+              "optionText": "Метод получает доступ к оригинальной переменной, и изменения видны вызывающему коду",
+              "isCorrect": true
+            },
+            {
+              "id": 171,
+              "testId": 71,
+              "optionText": "Метод принимает только ссылочные типы",
+              "isCorrect": false
+            },
+            {
+              "id": 172,
+              "testId": 71,
+              "optionText": "Параметр передается по значению, но изменения фиксируются после вызова",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 72,
+          "sectionId": 1,
+          "question": "Какие параметры можно передать с модификатором in?",
+          "isCodeTest": false,
+          "correctAnswer": "Только инициализированные переменные или константы",
+          "testNumber": 72,
+          "options": [
+            {
+              "id": 173,
+              "testId": 72,
+              "optionText": "Только константные выражения",
+              "isCorrect": false
+            },
+            {
+              "id": 174,
+              "testId": 72,
+              "optionText": "Только ссылочные типы",
+              "isCorrect": false
+            },
+            {
+              "id": 175,
+              "testId": 72,
+              "optionText": "Любые переменные, включая неинициализированные",
+              "isCorrect": false
+            },
+            {
+              "id": 176,
+              "testId": 72,
+              "optionText": "Только инициализированные переменные или константы",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 73,
+          "sectionId": 1,
+          "question": "Чем отличается параметр, переданный с модификатором out, от параметра с модификатором ref?",
+          "isCodeTest": false,
+          "correctAnswer": "ref требует инициализации перед вызовом, out нет",
+          "testNumber": 73,
+          "options": [
+            {
+              "id": 177,
+              "testId": 73,
+              "optionText": "ref требует инициализации перед вызовом, out нет",
+              "isCorrect": true
+            },
+            {
+              "id": 178,
+              "testId": 73,
+              "optionText": "out передает значение, а ref — ссылку",
+              "isCorrect": false
+            },
+            {
+              "id": 179,
+              "testId": 73,
+              "optionText": "Оба требуют инициализации перед вызовом",
+              "isCorrect": false
+            },
+            {
+              "id": 180,
+              "testId": 73,
+              "optionText": "out можно использовать только для примитивных типов",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 74,
+          "sectionId": 1,
+          "question": "Каким модификатором можно ограничить доступ только внутри текущей сборки?",
+          "isCodeTest": false,
+          "correctAnswer": "internal",
+          "testNumber": 74,
+          "options": [
+            {
+              "id": 181,
+              "testId": 74,
+              "optionText": "public",
+              "isCorrect": false
+            },
+            {
+              "id": 182,
+              "testId": 74,
+              "optionText": "protected",
+              "isCorrect": false
+            },
+            {
+              "id": 183,
+              "testId": 74,
+              "optionText": "internal",
+              "isCorrect": true
+            },
+            {
+              "id": 184,
+              "testId": 74,
+              "optionText": "private",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 75,
+          "sectionId": 1,
+          "question": "Как создать массив из 5 целых чисел?",
+          "isCodeTest": false,
+          "correctAnswer": "int[] ar = new int[5];",
+          "testNumber": 75,
+          "options": [
+            {
+              "id": 186,
+              "testId": 75,
+              "optionText": "int[] ar = new int[5];",
+              "isCorrect": true
+            },
+            {
+              "id": 187,
+              "testId": 75,
+              "optionText": "int[5] ar = new int;",
+              "isCorrect": false
+            },
+            {
+              "id": 188,
+              "testId": 75,
+              "optionText": "array int[5] ar = new array;",
+              "isCorrect": false
+            },
+            {
+              "id": 189,
+              "testId": 75,
+              "optionText": "int ar = [5];",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 76,
+          "sectionId": 1,
+          "question": "Выберите верные утверждения о передаче параметров в методы:",
+          "isCodeTest": false,
+          "correctAnswer": "передача параметров по ссылке позволяет методу изменять внешние объекты, представляемые аргументами,модификатор params определяет параметр метода, заменяемый при вызове переменным количеством аргументов,имя переменной, используемой как аргумент при вызове метода, может не совпадать с именем параметра, определенного в методе",
+          "testNumber": 76,
+          "options": [
+            {
+              "id": 190,
+              "testId": 76,
+              "optionText": "передача параметров по ссылке позволяет методу изменять внешние объекты, представляемые аргументами",
+              "isCorrect": true
+            },
+            {
+              "id": 191,
+              "testId": 76,
+              "optionText": "модификатор params определяет параметр метода, заменяемый при вызове переменным количеством аргументов",
+              "isCorrect": true
+            },
+            {
+              "id": 192,
+              "testId": 76,
+              "optionText": "параметры в метод передаются только по значениям",
+              "isCorrect": false
+            },
+            {
+              "id": 193,
+              "testId": 76,
+              "optionText": "имя переменной, используемой как аргумент при вызове метода, может не совпадать с именем параметра, определенного в методе",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 77,
+          "sectionId": 1,
+          "question": "Скомпилировать и выполнить программу ниже позволит реализация методов с заголовками:\nusing System;\nclass Program {\npublic static void Main() {\nfloat a = 4.45f, b = 2.71f, c = 3.14f;\nConsole.WriteLine(Do(a, b, c));\n}\n}",
+          "isCodeTest": false,
+          "correctAnswer": "static decimal Do(float a, float b, float c),static double Do(float a, float b, float c),static double Do(double a, float b, double c)",
+          "testNumber": 77,
+          "options": [
+            {
+              "id": 194,
+              "testId": 77,
+              "optionText": "static int Do(int a, int b, int c)",
+              "isCorrect": false
+            },
+            {
+              "id": 195,
+              "testId": 77,
+              "optionText": "static decimal Do(float a, float b, float c)",
+              "isCorrect": true
+            },
+            {
+              "id": 196,
+              "testId": 77,
+              "optionText": "static double Do(float a, float b, float c)",
+              "isCorrect": true
+            },
+            {
+              "id": 197,
+              "testId": 77,
+              "optionText": "static double Do(double a, float b, double c)",
+              "isCorrect": true
+            },
+            {
+              "id": 198,
+              "testId": 77,
+              "optionText": "static float Do(float a, out float b, float c)",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 78,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program {\npublic static void Main() {\nint[] arr = { 1, 2, 3, 4, 5 };\nint[] subArr = arr[1..^1];\nConsole.WriteLine(subArr.Length);\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "3",
+          "testNumber": 78,
+          "options": []
+        },
+        {
+          "id": 79,
+          "sectionId": 1,
+          "question": "Какая запись создаёт массив из 5 элементов, заполненных значениями по умолчанию?",
+          "isCodeTest": false,
+          "correctAnswer": "int[] ar = new int[5];",
+          "testNumber": 79,
+          "options": [
+            {
+              "id": 199,
+              "testId": 79,
+              "optionText": "int[] ar = new int[5];",
+              "isCorrect": true
+            },
+            {
+              "id": 200,
+              "testId": 79,
+              "optionText": "int[5] ar = new int();",
+              "isCorrect": false
+            },
+            {
+              "id": 201,
+              "testId": 79,
+              "optionText": "int[] ar = {0, 0, 0, 0, 0};",
+              "isCorrect": false
+            },
+            {
+              "id": 202,
+              "testId": 79,
+              "optionText": "int[] ar;",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 80,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program {\npublic static void Main() {\nstring[] words = { \"hello\", \"world\" };\nstring[] copy = words;\ncopy[0] = \"goodbye\";\nConsole.WriteLine(words[0]);\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "goodbye",
+          "testNumber": 80,
+          "options": []
+        },
+        {
+          "id": 81,
+          "sectionId": 1,
+          "question": "Какой из следующих фрагментов кода завершится ошибкой компиляции?",
+          "isCodeTest": false,
+          "correctAnswer": "byte b = 256;",
+          "testNumber": 81,
+          "options": [
+            {
+              "id": 203,
+              "testId": 81,
+              "optionText": "int[] a = new int[10]; a[10] = 5;",
+              "isCorrect": false
+            },
+            {
+              "id": 204,
+              "testId": 81,
+              "optionText": "byte b = 256;",
+              "isCorrect": true
+            },
+            {
+              "id": 205,
+              "testId": 81,
+              "optionText": "char c = '\\u0000';",
+              "isCorrect": false
+            },
+            {
+              "id": 206,
+              "testId": 81,
+              "optionText": "double d = 1.0 / 0.0;",
+              "isCorrect": false
+            }
+          ]
+        },
+		{
+          "id": 82,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program {\npublic static void Main() {\nint x = 2;\nx *= ++x + x++;\nConsole.Write(x);\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "12",
+          "testNumber": 82,
+          "options": []
+        },
+        {
+          "id": 83,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program {\npublic static void Main() {\nint x = 2;\nx = x * ++x + x++;\nConsole.Write(x);\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "9",
+          "testNumber": 83,
+          "options": []
+        },
+        {
+          "id": 84,
+          "sectionId": 1,
+          "question": "Результат выполнения кода?\nusing System;\nclass Program {\npublic static void Main() {\nstring s = \"hello\";\nConsole.WriteLine(s[^6]);\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "**",
+          "testNumber": 84,
+          "options": []
+        },
+        {
+          "id": 85,
+          "sectionId": 1,
+          "question": "Выберите корректные варианты объявления массивов:",
+          "isCodeTest": false,
+          "correctAnswer": "var a = new[,] {{ 1, 2 }, { 3, 4 }}; int[][] a = new int[][] { new int[] { 1 }, null };",
+          "testNumber": 85,
+          "options": [
+            {
+              "id": 207,
+              "testId": 85,
+              "optionText": "int[][] a = new int[2][2];",
+              "isCorrect": false
+            },
+            {
+              "id": 208,
+              "testId": 85,
+              "optionText": "var a = new[,] {{ 1, 2 }, { 3, 4 }};",
+              "isCorrect": true
+            },
+            {
+              "id": 209,
+              "testId": 85,
+              "optionText": "double[,,,] a = {{ { 1.0 }}};",
+              "isCorrect": false
+            },
+            {
+              "id": 210,
+              "testId": 85,
+              "optionText": "int[][] a = new int[][] { new int[] { 1 }, null };",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 86,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program {\npublic static void Main() {\nint x = 10;\nif (x++ > 10)\nConsole.Write(x);\nelse\nConsole.Write(--x);\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "10",
+          "testNumber": 86,
+          "options": []
+        },
+        {
+          "id": 87,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program {\npublic static void Main() {\nint x = 0, y = 0;\nfor (int i = 0; i < 5; i++) { x += i; y += ++i; }\nConsole.WriteLine(x + y);\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "15",
+          "testNumber": 87,
+          "options": []
+        },
+        {
+          "id": 88,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program {\npublic static void Main() {\nint a = 5;\na = a++ + ++a;\nConsole.WriteLine(a);\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "12",
+          "testNumber": 88,
+          "options": []
+        },
+        {
+          "id": 89,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program {\npublic static void Main() {\nint x = 10;\nint y = x++ + --x;\nConsole.WriteLine(y);\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "20",
+          "testNumber": 89,
+          "options": []
+        },
+        {
+          "id": 90,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program {\npublic static void Main() {\nint x = 5;\nfor (int i = 0; i < 5; i++);\nx += 5;\nConsole.WriteLine(x);\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "10",
+          "testNumber": 90,
+          "options": []
+        },
+        {
+          "id": 91,
+          "sectionId": 1,
+          "question": "Какая строка из предложенных завершится ошибкой компиляции?",
+          "isCodeTest": false,
+          "correctAnswer": "sbyte sb = 128;",
+          "testNumber": 91,
+          "options": [
+            {
+              "id": 211,
+              "testId": 91,
+              "optionText": "ulong x = 1 + 2;",
+              "isCorrect": false
+            },
+            {
+              "id": 212,
+              "testId": 91,
+              "optionText": "sbyte sb = 128;",
+              "isCorrect": true
+            },
+            {
+              "id": 213,
+              "testId": 91,
+              "optionText": "ushort y = 65535;",
+              "isCorrect": false
+            },
+            {
+              "id": 214,
+              "testId": 91,
+              "optionText": "int z = 0x10;",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 92,
+          "sectionId": 1,
+          "question": "Как завершится следующий код?\nusing System;\nclass Program {\npublic static void Main() {\nstring s = \"Hello\";\ns[^1] = '!';\nConsole.WriteLine(s);\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "*",
+          "testNumber": 92,
+          "options": []
+        },
+		{
+          "id": 93,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program {\n  public static void Main() {\n    int[] a = { 1, 2, 3, 4, 5 };\n    int[] b = a[^4..];\n    b[0] = 10;\n    Console.WriteLine(a[1] + b[1]);\n  }\n}",
+          "isCodeTest": true,
+          "correctAnswer": "5",
+          "testNumber": 93,
+          "options": []
+        },
+        {
+          "id": 94,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program {\n  public static void Main() {\n    int x = 0b1010;\n    x |= 0b0110;\n    x &= 0b1100;\n    Console.WriteLine(x);\n  }\n}",
+          "isCodeTest": true,
+          "correctAnswer": "12",
+          "testNumber": 94,
+          "options": []
+        },
+        {
+          "id": 95,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program {\n  public static void Main() {\n    double x = 0.1;\n    double y = 0.2;\n    Console.WriteLine((x + y) == 0.3);\n  }\n}",
+          "isCodeTest": true,
+          "correctAnswer": "False",
+          "testNumber": 95,
+          "options": []
+        },
+        {
+          "id": 96,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program {\n  public static void Main() {\n    var numbers = new int[3][,];\n    numbers[0] = new[,] { { 0 }, { 1 } };\n    numbers[1] = new[,] { { 1, 2 }, { -1, 4 } };\n    numbers[2] = new[,] { { 2, 3, 4 }, { 5, 6, 7 } };\n    Console.WriteLine(numbers[1][1, 0] + numbers[2][0, 2]);\n  }\n}",
+          "isCodeTest": true,
+          "correctAnswer": "3",
+          "testNumber": 96,
+          "options": []
+        },
+        {
+          "id": 97,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program {\n  public static void Main() {\n    int x = 1;\n    x = (x++ > 1) ? x++ : ++x;\n    Console.WriteLine(x);\n  }\n}",
+          "isCodeTest": true,
+          "correctAnswer": "3",
+          "testNumber": 97,
+          "options": []
+        },
+        {
+          "id": 98,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program {\n  public static void Main() {\n    int x = 10;\n    x = x++ + --x + x++;\n    Console.WriteLine(x);\n  }\n}",
+          "isCodeTest": true,
+          "correctAnswer": "30",
+          "testNumber": 98,
+          "options": []
+        },
+        {
+          "id": 99,
+          "sectionId": 1,
+          "question": "Какие типы данных в C# являются значимыми?",
+          "isCodeTest": false,
+          "correctAnswer": "int, bool",
+          "testNumber": 99,
+          "options": [
+            {
+              "id": 215,
+              "testId": 99,
+              "optionText": "int",
+              "isCorrect": true
+            },
+            {
+              "id": 216,
+              "testId": 99,
+              "optionText": "string",
+              "isCorrect": false
+            },
+            {
+              "id": 217,
+              "testId": 99,
+              "optionText": "object",
+              "isCorrect": false
+            },
+            {
+              "id": 218,
+              "testId": 99,
+              "optionText": "bool",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 100,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program {\n  public static void Main() {\n    int x = 0;\n    for (int i = 1; i <= 10; i++) x += i % 2 == 0 ? i : 0;\n    Console.WriteLine(x);\n  }\n}",
+          "isCodeTest": true,
+          "correctAnswer": "30",
+          "testNumber": 100,
+          "options": []
+        },
+        {
+          "id": 101,
+          "sectionId": 1,
+          "question": "На какой строке(-ах) будет ошибка компиляции?\nusing System;\nclass Program {\n  public static void Main() {\n    decimal a = 123.45m; //1\n    float b = 123.45;    //2\n    double c = 123.45;  //3\n    decimal d = 123.45f; //4\n    double f = 123.45F;  //5\n  }\n}",
+          "isCodeTest": true,
+          "correctAnswer": "24",
+          "testNumber": 101,
+          "options": []
+        },
+        {
+          "id": 102,
+          "sectionId": 1,
+          "question": "На какой строке(-ах) будет ошибка компиляции?\nusing System;\nclass Program {\n  public static void Main() {\n    int[][] arr = new int[3][];                                  //1\n    int[][] arr1 = new int[][] { { 1, 2 }, { 3, 4, 5 }, { 6 } }; //2\n    int[][] arr2 = new int[3][4];                                //3\n    int[][] arr3 = { new int[] { 1, 2 }, new int[] { 3, 4 } };   // 4\n    int[][] arr4 = new int[,][];                                 // 5\n  }\n}",
+          "isCodeTest": true,
+          "correctAnswer": "235",
+          "testNumber": 102,
+          "options": []
+        },
+        {
+          "id": 103,
+          "sectionId": 1,
+          "question": "Что выведет код?\nusing System;\nclass Program {\n  public static void Main() {\n    int x = 5;\n    int y = 2;\n    x += y += x;\n    Console.Write(x);\n  }\n}",
+          "isCodeTest": true,
+          "correctAnswer": "12",
+          "testNumber": 103,
+          "options": []
+        },
+		{
+          "id": 104,
+          "sectionId": 1,
+          "question": "Что выведет код?\nusing System;\nclass Program {\n  public static void Method(int x) { Console.WriteLine(\"int\"); }\n  public static void Method(long x) { Console.WriteLine(\"long\"); }\n  public static void Method(object x) { Console.WriteLine(\"object\"); }\n\n  public static void Main() {\n    Method(42.0f);\n  }\n}",
+          "isCodeTest": true,
+          "correctAnswer": "object",
+          "testNumber": 104,
+          "options": []
+        },
+        {
+          "id": 105,
+          "sectionId": 1,
+          "question": "На какой строке(-ах) будет ошибка компиляции?\nusing System;\nclass Program {\n  public static void Main() {\n    sbyte a = 100 + 28; //1\n    float b = 1.2F + 3.4f; //2\n    ulong c = 1 - 2; //3\n    decimal d = 1.0m + 2.0m; //4\n    char e = 'a' + \"b\"; //5\n  }\n}",
+          "isCodeTest": true,
+          "correctAnswer": "135",
+          "testNumber": 105,
+          "options": []
+        },
+         {
+          "id": 106,
+          "sectionId": 1,
+          "question": "Выберите правильные объявления методов с параметрами params:",
+          "isCodeTest": false,
+          "correctAnswer": "void Foo(int a = 1, params int[] args);,void Foo(params object[] args);",
+          "testNumber": 106,
+          "options": [
+            {
+              "id": 219,
+              "testId": 106,
+              "optionText": "void Foo(params int[] args, int b = 5);",
+              "isCorrect": false
+            },
+            {
+              "id": 220,
+              "testId": 106,
+              "optionText": "void Foo(int a = 1, params int[] args);",
+              "isCorrect": true
+            },
+            {
+              "id": 221,
+              "testId": 106,
+              "optionText": "void Foo(params object[] args);",
+              "isCorrect": true
+            },
+            {
+              "id": 222,
+              "testId": 106,
+              "optionText": "void Foo(params int[] args, int b);",
+              "isCorrect": false
+            },
+            {
+              "id": 223,
+              "testId": 106,
+              "optionText": "void Foo(params params int[] args);",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 107,
+          "sectionId": 1,
+          "question": "Какие варианты инициализации переменных допустимы?",
+          "isCodeTest": false,
+          "correctAnswer": "double b = 0.0 / 0.0;,var c = default(int);,object e = null;",
+          "testNumber": 107,
+          "options": [
+            {
+              "id": 224,
+              "testId": 107,
+              "optionText": "int a = null;",
+              "isCorrect": false
+            },
+            {
+              "id": 225,
+              "testId": 107,
+              "optionText": "double b = 0.0 / 0.0;",
+              "isCorrect": true
+            },
+            {
+              "id": 226,
+              "testId": 107,
+              "optionText": "var c = default(int);",
+              "isCorrect": true
+            },
+            {
+              "id": 227,
+              "testId": 107,
+              "optionText": "char d = 256;",
+              "isCorrect": false
+            },
+            {
+              "id": 228,
+              "testId": 107,
+              "optionText": "object e = null;",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 108,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program {\n  public static void Main() {\n    int x = 1, y = 2;\n    int z = x | (y + ++x);\n    Console.WriteLine(z);\n  }\n}",
+          "isCodeTest": true,
+          "correctAnswer": "5",
+          "testNumber": 108,
+          "options": []
+        },
+        {
+          "id": 109,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program {\n  public static void Main() {\n    int x = 5, y = 3;\n    int z = (x & y) + (x | y);\n    Console.WriteLine(z);\n  }\n}",
+          "isCodeTest": true,
+          "correctAnswer": "8",
+          "testNumber": 109,
+          "options": []
+        },
+        {
+          "id": 110,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program {\n  public static void Main() {\n    int x = 8, y = 4;\n    int z = (x ^ y) - (x & y);\n    Console.WriteLine(z);\n  }\n}",
+          "isCodeTest": true,
+          "correctAnswer": "12",
+          "testNumber": 110,
+          "options": []
+        },
+		{
+          "id": 111,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program {\n  public static void Main() {\n    int x = 1;\n    int y = x << 3;\n    int z = y >> 1;\n    Console.WriteLine(z);\n  }\n}",
+          "isCodeTest": true,
+          "correctAnswer": "4",
+          "testNumber": 111,
+          "options": []
+        },
+        {
+          "id": 112,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program {\n  public static void Main() {\n    int x = 7;\n    int y = 3;\n    int z = (~x | y) & x;\n    Console.WriteLine(z);\n  }\n}",
+          "isCodeTest": true,
+          "correctAnswer": "3",
+          "testNumber": 112,
+          "options": []
+        },
+        {
+          "id": 113,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program {\n  public static void Main() {\n    int x = 5, y = 3;\n    int z = x++ + ++y - (x << 1);\n    Console.WriteLine(z);\n  }\n}",
+          "isCodeTest": true,
+          "correctAnswer": "-3",
+          "testNumber": 113,
+          "options": []
+        },
+        {
+          "id": 114,
+          "sectionId": 1,
+          "question": "Какие строки кода вызовут ошибку компиляции?",
+          "isCodeTest": false,
+          "correctAnswer": "sbyte x = 128;,ulong z = -1;,int w = 0.0;",
+          "testNumber": 114,
+          "options": [
+            {
+              "id": 229,
+              "testId": 114,
+              "optionText": "sbyte x = 128;",
+              "isCorrect": true
+            },
+            {
+              "id": 230,
+              "testId": 114,
+              "optionText": "float y = 1.5F;",
+              "isCorrect": false
+            },
+            {
+              "id": 231,
+              "testId": 114,
+              "optionText": "ulong z = -1;",
+              "isCorrect": true
+            },
+            {
+              "id": 232,
+              "testId": 114,
+              "optionText": "int w = 0.0;",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 115,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program {\n  public static void Main() {\n    int x = 5;\n    int y = x++ + ++x + (x <<= 1);\n    Console.WriteLine(y);\n  }\n}",
+          "isCodeTest": true,
+          "correctAnswer": "26",
+          "testNumber": 115,
+          "options": []
+        },
+        {
+          "id": 116,
+          "sectionId": 1,
+          "question": "Какие из следующих операций можно выполнить над элементами массива в C#?",
+          "isCodeTest": false,
+          "correctAnswer": "Прямой доступ к элементам через индекс., Изменение размеров массива., Итерацию с использованием цикла for.",
+          "testNumber": 116,
+          "options": [
+            {
+              "id": 233,
+              "testId": 116,
+              "optionText": "Прямой доступ к элементам через индекс.",
+              "isCorrect": true
+            },
+            {
+              "id": 234,
+              "testId": 116,
+              "optionText": "Итерацию с использованием цикла foreach.",
+              "isCorrect": false
+            },
+            {
+              "id": 235,
+              "testId": 116,
+              "optionText": "Изменение размеров массива.",
+              "isCorrect": true
+            },
+            {
+              "id": 236,
+              "testId": 116,
+              "optionText": "Итерацию с использованием цикла for.",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 117,
+          "sectionId": 1,
+          "question": "Какой из следующих массивов корректно создан?",
+          "isCodeTest": false,
+          "correctAnswer": "int[] array = new int[] { 1, 2, 3 };, var array2 = new[] { 1, 2, 3 };",
+          "testNumber": 117,
+          "options": [
+            {
+              "id": 237,
+              "testId": 117,
+              "optionText": "int[] array = new int[] { 1, 2, 3 };",
+              "isCorrect": true
+            },
+            {
+              "id": 238,
+              "testId": 117,
+              "optionText": "int[2] array1 = { 1, 2 };",
+              "isCorrect": false
+            },
+            {
+              "id": 239,
+              "testId": 117,
+              "optionText": "var array2 = new[] { 1, 2, 3 };",
+              "isCorrect": true
+            },
+            {
+              "id": 240,
+              "testId": 117,
+              "optionText": "int[] array3 = new int[3] { 1, 2 };",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 118,
+          "sectionId": 1,
+          "question": "Какие из следующих утверждений верны для зубчатых массивов?",
+          "isCodeTest": false,
+          "correctAnswer": "Зубчатый массив позволяет массивам разной длины в каждом уровне., Зубчатый массив создается с использованием синтаксиса вида int[][] array = new int[длина массива][];",
+          "testNumber": 118,
+          "options": [
+            {
+              "id": 241,
+              "testId": 118,
+              "optionText": "Зубчатый массив может быть многомерным.",
+              "isCorrect": false
+            },
+            {
+              "id": 242,
+              "testId": 118,
+              "optionText": "Зубчатый массив позволяет массивам разной длины в каждом уровне.",
+              "isCorrect": true
+            },
+            {
+              "id": 243,
+              "testId": 118,
+              "optionText": "Зубчатый массив создается с использованием синтаксиса вида int[][] array = new int[длина массива][];",
+              "isCorrect": true
+            },
+            {
+              "id": 244,
+              "testId": 118,
+              "optionText": "Зубчатые массивы требуют одинаковой длины всех вложенных массивов.",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 119,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program {\npublic static void Main() {\n  int[,] array = new int[2, 3];\n  for (int i = 0; i < 2; i++)\n    for (int j = 0; j < 3; j++)\n      array[i, j] = i + j;\n  int z = array[1, 2];\n  Console.WriteLine(z);\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "3",
+          "testNumber": 119,
+          "options": []
+        },
+        {
+          "id": 120,
+          "sectionId": 1,
+          "question": "Какие из следующих операций возможны с массивом, объявленным как int[,] array = new int[3, 4];?",
+          "isCodeTest": false,
+          "correctAnswer": "1, 2, 4",
+          "testNumber": 120,
+          "options": [
+            {
+              "id": 245,
+              "testId": 120,
+              "optionText": "Обращение к элементу через array[2, 3].",
+              "isCorrect": true
+            },
+            {
+              "id": 246,
+              "testId": 120,
+              "optionText": "Использование в цикле foreach.",
+              "isCorrect": true
+            },
+            {
+              "id": 247,
+              "testId": 120,
+              "optionText": "Доступ к элементу через array[3][2].",
+              "isCorrect": false
+            },
+            {
+              "id": 248,
+              "testId": 120,
+              "optionText": "Заполнение значений массива с использованием вложенного цикла for.",
+              "isCorrect": true
+            }
+          ]
+        },
+		{
+          "id": 121,
+          "sectionId": 1,
+          "question": "Как инициализировать многомерный массив значениями?",
+          "isCodeTest": false,
+          "correctAnswer": "1, 2, 3",
+          "testNumber": 121,
+          "options": [
+            {
+              "id": 249,
+              "testId": 121,
+              "optionText": "int[,] array = { { 1, 2 }, { 3, 4 } };",
+              "isCorrect": true
+            },
+            {
+              "id": 250,
+              "testId": 121,
+              "optionText": "int[,] array1 = new int[,] { { 1, 2 }, { 3, 4 } };",
+              "isCorrect": true
+            },
+            {
+              "id": 251,
+              "testId": 121,
+              "optionText": "int[,] array2 = new int[2, 2] { { 1, 2 }, { 3, 4 } };",
+              "isCorrect": true
+            },
+            {
+              "id": 252,
+              "testId": 121,
+              "optionText": "int[][] array3 = { { 1, 2 }, { 3, 4 } };",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 122,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program {\n public static void Main() {\n   int[] array = { 1, 2, 3, 4 };\n   int result = 0;\n   for (int i = 0; i < array.Length; i++) {\n     if (i % 2 == 0)\n       result += array[i];\n   }\n   Console.WriteLine(result);\n }\n}",
+          "isCodeTest": true,
+          "correctAnswer": "4",
+          "testNumber": 122,
+          "options": []
+        },
+        {
+          "id": 123,
+          "sectionId": 1,
+          "question": "Какой тип массива подходит для следующей задачи: создание таблицы, где каждая строка может содержать разное количество столбцов?",
+          "isCodeTest": false,
+          "correctAnswer": "2",
+          "testNumber": 123,
+          "options": [
+            {
+              "id": 253,
+              "testId": 123,
+              "optionText": "Многомерный массив",
+              "isCorrect": false
+            },
+            {
+              "id": 254,
+              "testId": 123,
+              "optionText": "Зубчатый массив",
+              "isCorrect": true
+            },
+            {
+              "id": 255,
+              "testId": 123,
+              "optionText": "Оба варианта подходят",
+              "isCorrect": false
+            },
+            {
+              "id": 256,
+              "testId": 123,
+              "optionText": "Никакой из перечисленных",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 124,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program {\n public static void Main() {\n   int[] original = { 1, 2, 3 };\n   int[] copy = original;\n   copy[0] = 42;\n   Console.WriteLine(original[0]);\n }\n}",
+          "isCodeTest": true,
+          "correctAnswer": "42",
+          "testNumber": 124,
+          "options": []
+        },
+        {
+          "id": 125,
+          "sectionId": 1,
+          "question": "Какие из следующих утверждений верны для метода Clone?",
+          "isCodeTest": false,
+          "correctAnswer": "2, 3",
+          "testNumber": 125,
+          "options": [
+            {
+              "id": 257,
+              "testId": 125,
+              "optionText": "Метод создает глубокую копию массива.",
+              "isCorrect": false
+            },
+            {
+              "id": 258,
+              "testId": 125,
+              "optionText": "Метод создает поверхностную копию массива.",
+              "isCorrect": true
+            },
+            {
+              "id": 259,
+              "testId": 125,
+              "optionText": "Изменения в новом массиве не повлияют на оригинальный массив.",
+              "isCorrect": true
+            },
+            {
+              "id": 260,
+              "testId": 125,
+              "optionText": "Метод работает только с одномерными массивами.",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 126,
+          "sectionId": 1,
+          "question": "Чем отличается использование метода CopyTo от Clone?",
+          "isCodeTest": false,
+          "correctAnswer": "2",
+          "testNumber": 126,
+          "options": [
+            {
+              "id": 261,
+              "testId": 126,
+              "optionText": "CopyTo создает новый массив, а Clone копирует элементы в существующий массив.",
+              "isCorrect": false
+            },
+            {
+              "id": 262,
+              "testId": 126,
+              "optionText": "CopyTo копирует элементы в существующий массив, а Clone создает новый массив.",
+              "isCorrect": true
+            },
+            {
+              "id": 263,
+              "testId": 126,
+              "optionText": "Оба метода создают новые массивы.",
+              "isCorrect": false
+            },
+            {
+              "id": 264,
+              "testId": 126,
+              "optionText": "Оба метода работают одинаково.",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 127,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program {\n public static void Main() {\n   int[][] original = new int[2][];  \n   original[0] = new int[] { 1, 2 };  \n   original[1] = new int[] { 3, 4 };  \n\n   int[][] copy = (int[][])original.Clone();  \n   copy[0][0] = 42;  \n   Console.WriteLine(original[0][0]);  \n }\n}",
+          "isCodeTest": true,
+          "correctAnswer": "42",
+          "testNumber": 127,
+          "options": []
+        },
+        {
+          "id": 128,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program {\n  public static void Main() {\n    int[] original = { 1, 2, 3 };\n    int[] copy = (int[])original.Clone();\n    bool areEqual = original == copy;\n    Console.WriteLine(areEqual);\n  }\n}",
+          "isCodeTest": true,
+          "correctAnswer": "False",
+          "testNumber": 128,
+          "options": []
+        },
+        {
+          "id": 129,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program {\n  public static void Main() {\n    int x = 5;\n    int y = x++ * ++x - --x / x++;\n    Console.WriteLine(y);\n  }\n}",
+          "isCodeTest": true,
+          "correctAnswer": "34",
+          "testNumber": 129,
+          "options": []
+        },
+        {
+          "id": 130,
+          "sectionId": 1,
+          "question": "Что выведет следующий код?\nusing System;\nclass Program {\n    public static void Main() {\n        int x = 5, y = 10, z = 15;\n        int result = x > y ? (y > z ? y : z) : (x < z ? x : z);\n        Console.WriteLine(result);\n    }\n}",
+          "isCodeTest": true,
+          "correctAnswer": "5",
+          "testNumber": 130,
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Объектно-ориентированное программирование",
+      "tests": [
+	  {
+          "id": 131,
+          "sectionId": 2,
+          "question": "Что выведет следующий код?\nusing System;\npublic class DemoClass\n{\nint x = 5;\npublic string AsStringX => FormatX.ToString();\nprivate int FormatX => x * 10;\n}\npublic class Program\n{\npublic static void Main()\n{\nDemoClass demo = new DemoClass();\nConsole.WriteLine(demo.FormatX);\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "*",
+          "testNumber": 131,
+          "options": []
+        },
+        {
+          "id": 132,
+          "sectionId": 2,
+          "question": "Что выведет следующий код?\nusing System;\npublic class DemoClass\n{\nint x = 5;\npublic string AsStringX => FormatX.ToString();\nprivate int FormatX => x * 10;\n}\npublic class Program\n{\npublic static void Main()\n{\nDemoClass demo = new DemoClass();\nConsole.Write(demo.AsStringX);\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "50",
+          "testNumber": 132,
+          "options": []
+        },
+        {
+          "id": 133,
+          "sectionId": 2,
+          "question": "Что выведет следующий код?\nusing System;\npublic class Dragon\n{\nstatic int s_Gold = 100;\npublic static int GoldAmount => s_Gold;\npublic void SpendGold(int amount) => s_Gold -= amount;\n}\npublic class Program\n{\npublic static void Main()\n{\nDragon dragon1 = new Dragon();\nDragon dragon2 = new Dragon();\nConsole.Write(Dragon.GoldAmount);\ndragon1.SpendGold(80);\nConsole.Write(Dragon.GoldAmount);\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "10020",
+          "testNumber": 133,
+          "options": []
+        },
+		{
+          "id": 134,
+          "sectionId": 2,
+          "question": "Что выведет следующий код?\nusing System;\npublic class Dragon\n{\n  static int s_Gold = 100;\n  public static int GoldAmount => s_Gold;\n\n  public void SpendGold(int amount) => s_Gold -= amount;\n}\n\npublic class Program\n{\n  public static void Main()\n  {\n    Dragon dragon1 = new Dragon();\n    Dragon dragon2 = new Dragon();\n\n    Console.Write(Dragon.GoldAmount);\n    dragon1.SpendGold(80);\n    Console.Write(Dragon.GoldAmount);\n    Console.WriteLine(dragon2.GoldAmount);\n  }\n}",
+          "isCodeTest": true,
+          "correctAnswer": "*",
+          "testNumber": 134,
+          "options": []
+        },
+        {
+          "id": 135,
+          "sectionId": 2,
+          "question": "Какие модификаторы доступа корректны для метода класса?\nusing System;\nclass MyClass\n{\n??? void MyMethod() { }\n}",
+          "isCodeTest": false,
+          "correctAnswer": "public, private, protected, internal",
+          "testNumber": 4,
+          "options": [
+            {
+              "id": 265,
+              "testId": 135,
+              "optionText": "const, readonly, static",
+              "isCorrect": false
+            },
+            {
+              "id": 266,
+              "testId": 135,
+              "optionText": "Только private и public",
+              "isCorrect": false
+            },
+            {
+              "id": 267,
+              "testId": 135,
+              "optionText": "public, private, protected, internal",
+              "isCorrect": true
+            },
+            {
+              "id": 268,
+              "testId": 135,
+              "optionText": "Все вышеперечисленные",
+              "isCorrect": false
+            }
+          ]
+        },
+		
+        {
+          "id": 136,
+          "sectionId": 2,
+          "question": "Что выведет следующий код?\nusing System;\npublic class BaseClass\n{\nprotected int ProtectedValue = 10;\nprivate int PrivateValue = 5;\npublic int GetProtectedValue() => ProtectedValue;\npublic int GetPrivateValue() => PrivateValue;\n}\npublic class DerivedClass : BaseClass\n{\npublic int MultiplyProtectedValue(int factor) => ProtectedValue * factor;\n}\npublic class Program\n{\npublic static void Main()\n{\nDerivedClass obj = new DerivedClass();\nConsole.Write(obj.MultiplyProtectedValue(2));\nConsole.Write(obj.GetProtectedValue());\nConsole.WriteLine(obj.GetPrivateValue());\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "20105",
+          "testNumber": 136,
+          "options": []
+        },
+        {
+          "id": 137,
+          "sectionId": 2,
+          "question": "Что выведет следующий код?\nusing System;\npublic class BaseClass\n{\nprotected int ProtectedValue = 10;\nprivate int PrivateValue = 5;\npublic int GetProtectedValue() => ProtectedValue;\npublic int GetPrivateValue() => PrivateValue;\n}\npublic class DerivedClass : BaseClass\n{\npublic int MultiplyProtectedValue(int factor) => ProtectedValue * factor;\npublic int TryAccessValue()\n{\nreturn PrivateValue;\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "*",
+          "testNumber": 137,
+          "options": []
+        },
+        {
+          "id": 138,
+          "sectionId": 2,
+          "question": "Что выведет следующий код?\nusing System;\npublic class Point\n{\npublic double X { get; init; }\npublic double Y { get; init; }\npublic Point(double x, double y)\n{\nX = x;\nY = y;\n}\n}\npublic class Program\n{\npublic static void Main()\n{\nPoint p = new Point(2, 3);\np.X = 10;\nConsole.Write($\"({p.X}, {p.Y})\");\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "*",
+          "testNumber": 138,
+          "options": []
+        },
+        {
+          "id": 139,
+          "sectionId": 2,
+          "question": "Что выведет следующий код?\nusing System;\npublic class Counter\n{\nprivate static int count = 0;\npublic Counter() => count++;\npublic static int GetCount() => count;\n}\npublic class Program\n{\npublic static void Main()\n{\nCounter c1 = new Counter();\nCounter c2 = new Counter();\nConsole.Write(Counter.GetCount());\nCounter c3 = new Counter();\nConsole.Write(Counter.GetCount());\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "23",
+          "testNumber": 139,
+          "options": []
+        },
+        {
+          "id": 140,
+          "sectionId": 2,
+          "question": "Как завершится программа?\nusing System;\npublic class Data\n{\nprivate double[] _data = { 1, 2, 3 };\npublic double this[int i]\n{\nget => (i >= 0 && i < _data.Length) ? _data[i] : throw new IndexOutOfRangeException();\nset => _data[i] = value;\n}\n}\npublic class Program\n{\npublic static void Main()\n{\nData d = new Data();\nConsole.Write(d[1]);\nd[2] = 4;\nConsole.WriteLine(d[2]);\nConsole.Write(d[3]);\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "**",
+          "testNumber": 140,
+          "options": []
+        },
+        {
+          "id": 141,
+          "sectionId": 2,
+          "question": "Что выведет следующий код?\nusing System;\npublic class A\n{\npublic virtual string GetName() => \"A\";\n}\npublic class B : A\n{\npublic override string GetName() => \"B\";\n}\npublic class Program\n{\npublic static void Main()\n{\nA objA = new B();\nConsole.WriteLine(objA.GetName());\n}\n}",
+          "isCodeTest": true,
+          "correctAnswer": "B",
+          "testNumber": 141,
+          "options": []
+        },
+		{
+		"id": 142,
+		"sectionId": 2,
+		"question": "Что выведет следующий код?\nusing System;\npublic class Parent\n{\n  public Parent(string name) => Console.Write($\"Parent: {name} \";\n}\npublic class Child : Parent\n{\n  public Child(string name) : base(name) => Console.Write($\"Child: {name} \";\n}\npublic class Program\n{\n  public static void Main()\n  {\n    Child child = new Child(\"Example\");\n  }\n}",
+		"isCodeTest": true,
+		"correctAnswer": "Parent: Example Child: Example",
+		"testNumber": 142,
+		"options": []
+		},
+		{
+		"id": 143,
+		"sectionId": 2,
+		"question": "Какой будет порядок вызовов конструкторов(ожидается строка формата 'Первый, второй, третий'(без кавычек))?\npublic class Parent\n{\n  public Parent() => Console.WriteLine(\"Parent Constructor\");\n}\npublic class Child : Parent\n{\n  public Child() => Console.WriteLine(\"Child Constructor\");\n}\npublic class GrandChild : Child\n{\n  public GrandChild() => Console.WriteLine(\"GrandChild Constructor\");\n}\npublic class Program\n{\n  public static void Main()\n  {\n    GrandChild obj = new GrandChild();\n  }\n}",
+		"isCodeTest": true,
+		"correctAnswer": "Parent, Child, GrandChild",
+		"testNumber": 143,
+		"options": []
+	  },
+	  {
+		"id": 144,
+		"sectionId": 2,
+		"question": "Что выведет следующий код?\npublic class Rectangle\n{\n  public virtual double Area(double width, double height) => width * height;\n}\npublic class Square : Rectangle\n{\n  public override double Area(double width, double height) => base.Area(width, width);\n}\npublic class Program\n{\n  public static void Main()\n  {\n    Rectangle rect = new Square();\n    Console.WriteLine(rect.Area(5, 10));\n  }\n}",
+		"isCodeTest": true,
+		"correctAnswer": "25",
+		"testNumber": 144,
+		"options": []
+	  },
+	  {
+		"id": 145,
+		"sectionId": 2,
+		"question": "Что выведет следующий код?\npublic class A\n{\n  private int _privateValue = 10;\n  protected int _protectedValue = 20;\n  public virtual int GetValue() => _protectedValue;\n}\npublic class B : A\n{\n  public override int GetValue() => _protectedValue * 2;\n}\npublic class Program\n{\n  public static void Main()\n  {\n    A obj = new B();\n    Console.WriteLine(obj.GetValue());\n  }\n}",
+		"isCodeTest": true,
+		"correctAnswer": "40",
+		"testNumber": 145,
+		"options": []
+	  },
+	  {
+		"id": 146,
+		"sectionId": 2,
+		"question": "Что выведет следующий код?\npublic class A\n{\n  protected int _value;\n  public virtual int Value\n  {\n    get => _value;\n    set => _value = value;\n  }\n}\npublic class B : A\n{\n  public override int Value\n  {\n    get => base.Value;\n    set => base.Value = value > 0 ? value : 0;\n  }\n}\npublic class Program\n{\n  public static void Main()\n  {\n    B obj = new B();\n    obj.Value = -5;\n    Console.WriteLine(obj.Value);\n  }\n}",
+		"isCodeTest": true,
+		"correctAnswer": "0",
+		"testNumber": 146,
+		"options": []
+	  },
+	  {
+		"id": 147,
+		"sectionId": 2,
+		"question": "Что выведет следующий код?\npublic class A\n{\n  private int[] _data = { 1, 2, 3 };\n  public virtual int this[int i]\n  {\n    get => _data[i];\n  }\n}\npublic class B : A\n{\n  public override int this[int i]\n  {\n    get => base[i] * 2;\n  }\n}\npublic class Program\n{\n  public static void Main()\n  {\n    A obj = new B();\n    Console.WriteLine(obj[1]);\n  }\n}",
+		"isCodeTest": true,
+		"correctAnswer": "4",
+		"testNumber": 147,
+		"options": []
+	  },
+	  {
+		"id": 148,
+		"sectionId": 2,
+		"question": "Что выведет следующий код?\npublic class A\n{\n  public A() => Console.Write(\"A\");\n}\npublic class B : A\n{\n  public B() : base() => Console.Write(\"B\");\n}\npublic class C : B\n{\n  public C() : base() => Console.Write(\"C\");\n}\npublic class Program\n{\n  public static void Main()\n  {\n    C obj = new C();\n  }\n}",
+		"isCodeTest": true,
+		"correctAnswer": "ABC",
+		"testNumber": 148,
+		"options": []
+	  },
+	  {
+		"id": 149,
+		"sectionId": 2,
+		"question": "Что выведет следующий код?\nusing System;\npublic class A\n{\n  private int a = 1;\n  public A() => a = Foo() + a;\n  public virtual int Foo() => a + 5;\n}\npublic class B : A\n{\n  private int b = 2;\n  public override int Foo() => b * 3;\n}\npublic class Program\n{\n  public static void Main()\n  {\n    A obj = new B();\n    Console.WriteLine(obj.Foo());\n  }\n}",
+		"isCodeTest": true,
+		"correctAnswer": "6",
+		"testNumber": 149,
+		"options": []
+	  },
+	  {
+		"id": 150,
+		"sectionId": 2,
+		"question": "Что выведет следующий код?\npublic class A\n{\n  protected int x = 5;\n  public A() => x += Foo();\n  public virtual int Foo() => x * 2;\n}\npublic class B : A\n{\n  public override int Foo() => x + 3;\n}\npublic class Program\n{\n  public static void Main()\n  {\n    A obj = new B();\n    Console.WriteLine(obj.Foo());\n  }\n}",
+		"isCodeTest": true,
+		"correctAnswer": "16",
+		"testNumber": 150,
+		"options": []
+	  },
+	  {
+		"id": 151,
+		"sectionId": 2,
+		"question": "Что выведет следующий код?\npublic class A\n{\n  private int a = 2;\n  public A() => a += Foo();\n  public virtual int Foo() => a;\n}\npublic class B : A\n{\n  private int b = 4;\n  public override int Foo() => b * 2;\n}\npublic class Program\n{\n  public static void Main()\n  {\n    A obj = new B();\n    Console.WriteLine(obj.Foo());\n  }\n}",
+		"isCodeTest": true,
+		"correctAnswer": "8",
+		"testNumber": 151,
+		"options": []
+	  },
+	  {
+		"id": 152,
+		"sectionId": 2,
+		"question": "Что выведет следующий код?\npublic class A\n{\n  private static int a = 1;\n  public A() => a += Foo();\n  public virtual int Foo() => a + 2;\n}\npublic class B : A\n{\n  private static int b = 3;\n  public override int Foo() => b + 4;\n}\npublic class Program\n{\n  public static void Main()\n  {\n    A obj = new B();\n    Console.WriteLine(obj.Foo());\n  }\n}",
+		"isCodeTest": true,
+		"correctAnswer": "7",
+		"testNumber": 152,
+		"options": []
+	  },
+	  {
+		"id": 153,
+		"sectionId": 2,
+		"question": "Что выведет следующий код?\nclass A\n{\n    public int X { get; set; }\n    public A(int x = 2) => X = x;\n    public static A operator +(A obj, int value) => new A(obj.X + value);\n    public override string ToString() => $\"{X}\";\n}\nclass Program\n{\n    public static void Main()\n    {\n        A ex = new A(3);\n        Console.WriteLine($\"{ex + 2}{ex + 3}\");\n    }\n}",
+		"isCodeTest": true,
+		"correctAnswer": "56",
+		"testNumber": 153,
+		"options": []
+	  },
+	  {
+		"id": 154,
+		"sectionId": 2,
+		"question": "Что выведет следующий код?\nclass A\n{\n  public int X { get; set; }\n  public A(int x = 5) => X = x;\n  public static A operator --(A obj) => new A(obj.X - 1);\n  public override string ToString() => $\"{X}\";\n}\nclass Program\n{\n  public static void Main()\n  {\n    A ex = new A(4);\n    Console.WriteLine($\"{--ex}{ex--}\");\n  }\n}",
+		"isCodeTest": true,
+		"correctAnswer": "33",
+		"testNumber": 154,
+		"options": []
+	  },
+	  {
+		"id": 155,
+		"sectionId": 2,
+		"question": "Что выведет следующий код?\npublic class A\n{\n    public int Value { get; }\n    public A(int value) => Value = value;\n    public virtual int Calculate() => Value;\n    public static A operator +(A obj1, A obj2) => new A(obj1.Value + obj2.Value - 2200);\n    public override string ToString() => Value.ToString();\n}\npublic class B : A\n{\n    public B(int value) : base(value) { }\n    public override int Calculate() => base.Calculate() + 10;\n}\nclass Program\n{\n    public static void Main()\n    {\n        A obj1 = new A(3000);\n        B obj2 = new B(1610);\n        A result = obj1 + obj2;\n        Console.WriteLine(result.Calculate());\n    }\n}",
+		"isCodeTest": true,
+		"correctAnswer": "2410",
+		"testNumber": 155,
+		"options": []
+	  },
+	  {
+		"id": 156,
+		"sectionId": 2,
+		"question": "Что выведет следующий код?\npublic enum Compass\n{\n  North,\n  South,\n  East,\n  West\n}\npublic class Program\n{\n  public static void Main(string[] args)\n  {\n    Compass direction1 = Compass.North;\n    Compass direction2 = Compass.South;\n    Console.WriteLine(direction1 > direction2);\n  }\n}",
+		"isCodeTest": true,
+		"correctAnswer": "False",
+		"testNumber": 156,
+		"options": []
+	  },
+	  {
+		"id": 157,
+		"sectionId": 2,
+		"question": "Что выведет следующий код?\npublic struct Point3D\n{\n  public int X;\n  public int Y;\n  public int Z;\n  public Point3D(int x, int y) : this()\n  {\n    X = x;\n    Y = y;\n  }\n}\npublic class Program\n{\n  public static void Main(string[] args)\n  {\n    Point3D p1 = new Point3D(5, 10);\n    Console.WriteLine($\"({p1.X}, {p1.Y}, {p1.Z})\");\n  }\n}",
+		"isCodeTest": true,
+		"correctAnswer": "(5, 10, 0)",
+		"testNumber": 157,
+		"options": []
+	  },
+	  {
+		"id": 158,
+		"sectionId": 2,
+		"question": "Что выведет следующий код?\npublic enum Compass\n{\n  North = 1,\n  South = 2,\n  East = 3,\n  West = 4\n}\npublic class Program\n{\n  public static void Main(string[] args)\n  {\n    int value = 5;\n    Compass direction = (Compass)value;\n    Console.WriteLine(direction);\n  }\n}",
+		"isCodeTest": true,
+		"correctAnswer": "5",
+		"testNumber": 158,
+		"options": []
+	  },
+	  {
+		"id": 159,
+		"sectionId": 2,
+		"question": "Что выведет следующий код?\nusing System;\nint value = 42;\nobject boxedValue = value;\nint unboxedValue = (int)boxedValue;\nConsole.WriteLine(unboxedValue);",
+		"isCodeTest": true,
+		"correctAnswer": "42",
+		"testNumber": 159,
+		"options": []
+	  },
+    {
+      "id": 160,
+      "sectionId": 2,
+      "question": "Что выведет следующий код?\nusing System;\nobject nullObject = null;\nint? nullableValue = (int?)nullObject;\nConsole.WriteLine(nullableValue.HasValue);\n",
+      "isCodeTest": true,
+      "correctAnswer": "False",
+      "testNumber": 160,
+      "options": []
+    },
+    {
+      "id": 161,
+      "sectionId": 2,
+      "question": "Что выведет код?\nusing System;\nclass A {\n  public virtual void M() => Console.Write(\"A\");\n}\n\nclass B : A {\n  public override void M() => Console.Write(\"B\");\n}\n\nclass C : B {\n  public new void M() => Console.Write(\"C\");\n}\n\nclass Program {\n  public static void Main() {\n    A obj = new C();\n    obj.M();\n  }\n}",
+      "isCodeTest": true,
+      "correctAnswer": "B",
+      "testNumber": 161,
+      "options": []
+    },
+    {
+      "id": 162,
+      "sectionId": 2,
+      "question": "Что выведет следующий код?\nusing System;\nclass A {\n  public virtual void M() => Console.Write(\"A\");\n}\n\nclass B : A {\n  public new virtual void M() => Console.Write(\"B\");\n}\n\nclass C : B {\n  public override void M() => Console.Write(\"C\");\n}\n\nclass Program {\n  public static void Main() {\n    A obj = new C();\n    obj.M();\n  }\n}",
+      "isCodeTest": true,
+      "correctAnswer": "A",
+      "testNumber": 162,
+      "options": []
+    },
+    {
+      "id": 163,
+      "sectionId": 2,
+      "question": "Что выведет следующий код?\n\n```csharp\npublic class MyBaseException : Exception {\n  public MyBaseException(string message) : base(\"Base: \" + message) { }\n}\n\npublic class MyDerivedException : MyBaseException {\n  public MyDerivedException(string message) : base(\"Derived: \" + message) { }\n}\n\nclass Program {\n  static void Main() {\n    try {\n      throw new MyDerivedException(\"Error occurred\");\n    } catch (MyBaseException e) {\n      Console.WriteLine(e.Message);\n    }\n  }\n}",
+      "isCodeTest": true,
+      "correctAnswer": "Base: Derived: Error occurred",
+      "testNumber": 163,
+      "options": []
+    },
+    {
+      "id": 164,
+      "sectionId": 2,
+      "question": "Что выведет следующий код?\nusing System;\nabstract class A {\n  public abstract void Show();\n  public virtual void Print() => Console.Write(\"A\");\n}\n\nclass B : A {\n  public override void Show() => Console.Write(\"B\");\n  public override void Print() => Console.Write(\"C\");\n}\n\nclass Program {\n  public static void Main() {\n    A obj = new B();\n    obj.Show();\n    obj.Print();\n  }\n}",
+      "isCodeTest": true,
+      "correctAnswer": "BC",
+      "testNumber": 164,
+      "options": []
+    },
+    {
+      "id": 165,
+      "sectionId": 2,
+      "question": "Что выведет следующий код?\nusing System;\nabstract class A {\n  protected A() { Console.Write(\"Base\"); }\n  public abstract void Show();\n}\n\nclass B : A {\n  public B() { Console.Write(\"Derived\"); }\n  public override void Show() { Console.Write(\"Show\"); }\n}\n\nclass Program {\n  public static void Main() {\n    A obj = new B();\n    obj.Show();\n  }\n}",
+      "isCodeTest": true,
+      "correctAnswer": "BaseDerivedShow",
+      "testNumber": 165,
+      "options": []
+    },
+    {
+      "id": 166,
+      "sectionId": 2,
+      "question": "Что выведет следующий код?\nusing System;\npublic class Engine {\n  public virtual string Start() => \"Engine started.\";\n}\n\npublic class Car {\n  private Engine _engine = new Engine();\n  public virtual string Start() => _engine.Start() + \" Car is moving.\";\n}\n\npublic class ElectricCar : Car {\n  public override string Start() => \"Electric \" + base.Start();\n}\n\nclass Program {\n  public static void Main() {\n    Car car = new ElectricCar();\n    Console.WriteLine(car.Start());\n  }\n}",
+      "isCodeTest": true,
+      "correctAnswer": "Electric Engine started. Car is moving.",
+      "testNumber": 166,
+      "options": []
+    },
+    {
+      "id": 167,
+      "sectionId": 2,"question": "Что выведет следующий код?\nusing System;\nabstract class A {\n  public abstract int Value { get; }\n}\n\nclass B : A {\n  public override int Value => 10;\n}\n\nclass C : B {\n  public new int Value => 20;\n}\n\nclass Program {\n  static void Main() {\n    A obj = new C();\n    Console.WriteLine(obj.Value);\n  }\n}",
+      "isCodeTest": true,
+      "correctAnswer": "10",
+      "testNumber": 167,
+      "options": []
+    },
+    {
+      "id": 168,
+      "sectionId": 2,
+      "question": "Что выведет следующий код?\nusing System;\nclass A {\n  public int Value { get; set; }\n  public A() {\n    Value = 10;\n    Console.Write(Value);\n  }\n}\n\nclass B : A {\n  public B() {\n    Value += 5;\n    Console.Write(Value);\n  }\n}\n\nclass D : B {\n  public D() {\n    Value *= 2;\n    Console.Write(Value);\n  }\n}\n\npublic class Program {\n  public static void Main() {\n    D obj = new D();\n  }\n}",
+      "isCodeTest": true,
+      "correctAnswer": "101530",
+      "testNumber": 168,
+      "options": []
+    },
+    {
+      "id": 169,
+      "sectionId": 2,
+      "question": "Что выведет следующий код?\nusing System;\nclass A {\n  protected int X { get; set; }\n  public A() {\n    X = 5;\n    Console.Write(X);\n  }\n}\n\nclass B : A {\n  public B() {\n    X += 3;\n    Console.Write(X);\n  }\n}\n\nclass C : B {\n  public C() {\n    X *= 2;\n    Console.Write(X);\n  }\n}\n\nclass Program {\n  public static void Main() {\n    new C();\n  }\n}",
+      "isCodeTest": true,
+      "correctAnswer": "5816",
+      "testNumber": 169,
+      "options": []
+    },
+    {
+      "id": 170,
+      "sectionId": 2,
+      "question": "Что выведет следующий код?\nusing System;\nclass Parent {\n  protected static int x;\n  protected Parent() => Console.Write(x++);\n}\n\nclass Child : Parent {\n  protected int y = x;\n  protected Child() => Console.Write(y++);\n}\n\nclass GrandChild : Child {\n  public GrandChild() => Console.Write(y);\n}\n\nclass Program {\n  static void Main(string[] args) {\n    GrandChild obj = new GrandChild();\n  }\n}",
+      "isCodeTest": true,
+      "correctAnswer": "001",
+      "testNumber": 170,
+      "options": []
+    },
+    {
+      "id": 171,
+      "sectionId": 2,
+      "question": "Что выведет следующий код?\nusing System;\nclass X {\n  protected int x = 10;\n  protected X() => Print();\n  protected virtual void Print() => Console.Write(x);\n}\n\nclass Y : X {\n  protected int y = 20;\n  protected override void Print() => Console.Write(y);\n}\n\nclass Z : Y {\n  public Z() => Console.Write(x + y);\n}\n\nclass Program {\n  static void Main(string[] args) {\n    Z obj = new Z();\n  }\n}",
+      "isCodeTest": true,
+      "correctAnswer": "2030",
+      "testNumber": 171,
+      "options": []
+    },
+    {
+      "id": 172,
+      "sectionId": 2,
+      "question": "Что выведет следующий код?\n\n```csharp\nclass A {\n  protected int x = 5;\n  protected A() => Console.Write(--x);\n}\n\nclass B : A {\n  protected B() => Console.Write(x--);\n}\n\nclass C : B {\n  public C() => Console.Write(++x);\n}\n\nclass Program {\n  static void Main(string[] args) {\n    C obj = new C();\n  }\n}",
+      "isCodeTest": true,
+      "correctAnswer": "444",
+      "testNumber": 172,
+      "options": []
+    },
+    {
+      "id": 173,
+      "sectionId": 2,
+      "question": "Что выведет следующий код?\nusing System;\nclass A {\n  protected static int x = 5;\n  protected A() => Console.Write(x++);\n}\n\nclass B : A {\n  protected static new int x = 10;\n  protected B() => Console.Write(--x);\n}\n\nclass C : B {\n  public C() => Console.Write(x);\n}\n\nclass Program {\n  static void Main(string[] args) {\n    C obj = new C();\n  }\n}",
+      "isCodeTest": true,
+      "correctAnswer": "599",
+      "testNumber": 173,
+      "options": []
+    },
+    {
+      "id": 174,
+      "sectionId": 2,"question": "Что выведет следующий код?\nusing System;\nclass Base {\n  protected int x = 1;\n  private int y = 2;\n  protected Base() => Console.Write(x + y);\n}\n\nclass Derived : Base {\n  private int z = 3;\n  protected Derived() => Console.Write(++z);\n}\n\nclass MostDerived : Derived {\n  public MostDerived() => Console.Write(x++);\n}\n\nclass Program {\n  static void Main(string[] args) {\n    MostDerived obj = new MostDerived();\n  }\n}",
+      "isCodeTest": true,
+      "correctAnswer": "341",
+      "testNumber": 174,
+      "options": []
+    },
+	{
+	"id": 175,
+	"sectionId": 2,
+	"question": "Что выведет следующий код?\nusing System;\nclass A\n{\nprotected A() => Print();\nprotected virtual void Print() => Console.Write(\"A\");\n}\nclass B : A\n{\nprivate int x = 10;\nprotected override void Print() => Console.Write(x);\n}\nclass C : B\n{\npublic C() => Print();\n}\nclass Program\n{\nstatic void Main(string[] args)\n{\nC obj = new C();\n}\n}",
+	"isCodeTest": true,
+	"correctAnswer": "1010",
+	"testNumber": 175,
+	"options": []
+	},
+		{
+	  "id": 176,
+	  "sectionId": 2,
+	  "question": "В качестве базового типа перечисления может использоваться:\n",
+	  "isCodeTest": false,
+	  "correctAnswer": "знаковый целочисленный арифметический тип, беззнаковый целочисленный арифметический тип",
+	  "testNumber": 176,
+	  "options": [
+		{
+		  "id": 269,
+		  "testId": 176,
+		  "optionText": "символьный тип",
+		  "isCorrect": false
+		},
+		{
+		  "id": 270,
+		  "testId": 176,
+		  "optionText": "знаковый целочисленный арифметический тип",
+		  "isCorrect": true
+		},
+		{
+		  "id": 271,
+		  "testId": 176,
+		  "optionText": "беззнаковый целочисленный арифметический тип",
+		  "isCorrect": true
+		},
+		{
+		  "id": 272,
+		  "testId": 176,
+		  "optionText": "вещественный тип",
+		  "isCorrect": false
+		},
+		{
+		  "id": 273,
+		  "testId": 176,
+		  "optionText": "строковый тип",
+		  "isCorrect": false
+		}
+	  ]
+	},
+	{
+	  "id": 177,
+	  "sectionId": 2,
+	  "question": "Выберите все истинные утверждения относительно ключевого слова sealed в C#:",
+	  "isCodeTest": false,
+	  "correctAnswer": "sealed предотвращает дальнейшее наследование класса, Метод, помеченный sealed, не может быть переопределен в производных классах, Абстрактные классы не могут быть объявлены как sealed",
+	  "testNumber": 177,
+	  "options": [
+		{
+		  "id": 274,
+		  "testId": 177,
+		  "optionText": "sealed предотвращает дальнейшее наследование класса",
+		  "isCorrect": true
+		},
+		{
+		  "id": 275,
+		  "testId": 177,
+		  "optionText": "Метод, помеченный sealed, не может быть переопределен в производных классах",
+		  "isCorrect": true
+		},
+		{
+		  "id": 276,
+		  "testId": 177,
+		  "optionText": "Класс, объявленный как sealed, может быть базовым для других классов",
+		  "isCorrect": false
+		},
+		{
+		  "id": 277,
+		  "testId": 177,
+		  "optionText": "sealed можно применять только к методам, объявленным с модификатором virtual",
+		  "isCorrect": false
+		},
+		{
+		  "id": 278,
+		  "testId": 177,
+		  "optionText": "Абстрактные классы не могут быть объявлены как sealed",
+		  "isCorrect": true
+		}
+	  ]
+	},
+		{
+	  "id": 178,
+	  "sectionId": 2,
+	  "question": "Какие из следующих утверждений верны для абстрактных методов?",
+	  "isCodeTest": false,
+	  "correctAnswer": "Абстрактные методы всегда должны быть переопределены в производных классах",
+	  "testNumber": 178,
+	  "options": [
+		{
+		  "id": 279,
+		  "testId": 178,
+		  "optionText": "Абстрактные методы всегда должны быть переопределены в производных классах",
+		  "isCorrect": true
+		},
+		{
+		  "id": 280,
+		  "testId": 178,
+		  "optionText": "Абстрактные методы могут содержать реализацию",
+		  "isCorrect": false
+		},
+		{
+		  "id": 281,
+		  "testId": 178,
+		  "optionText": "Абстрактный метод может быть перегружен в производном классе",
+		  "isCorrect": false
+		},
+		{
+		  "id": 282,
+		  "testId": 178,
+		  "optionText": "Абстрактный метод может быть объявлен в статическом классе",
+		  "isCorrect": false
+		},
+		{
+		  "id": 283,
+		  "testId": 178,
+		  "optionText": "Абстрактные методы могут иметь различные уровни доступа: public, protected, internal и private",
+		  "isCorrect": false
+		}
+	  ]
+	},
+		{
+	  "id": 179,
+	  "sectionId": 2,
+	  "question": "Какие члены класса можно объявить с модификатором readonly?",
+	  "isCodeTest": false,
+	  "correctAnswer": "Поля класса, Константы",
+	  "testNumber": 179,
+	  "options": [
+		{
+		  "id": 284,
+		  "testId": 179,
+		  "optionText": "Поля класса",
+		  "isCorrect": true
+		},
+		{
+		  "id": 285,
+		  "testId": 179,
+		  "optionText": "Свойства",
+		  "isCorrect": false
+		},
+		{
+		  "id": 286,
+		  "testId": 179,
+		  "optionText": "Методы",
+		  "isCorrect": false
+		},
+		{
+		  "id": 287,
+		  "testId": 179,
+		  "optionText": "Константы",
+		  "isCorrect": true
+		}
+	  ]
+	},{
+	  "id": 180,
+	  "sectionId": 2,
+	  "question": "Выберите корректные операторы для перегрузки в C#:",
+	  "isCodeTest": false,
+	  "correctAnswer": "+, <=",
+	  "testNumber": 180,
+	  "options": [
+		{
+		  "id": 288,
+		  "testId": 180,
+		  "optionText": "+",
+		  "isCorrect": true
+		},
+		{
+		  "id": 289,
+		  "testId": 180,
+		  "optionText": "&&",
+		  "isCorrect": false
+		},
+		{
+		  "id": 290,
+		  "testId": 180,
+		  "optionText": "??",
+		  "isCorrect": false
+		},
+		{
+		  "id": 291,
+		  "testId": 180,
+		  "optionText": "<=",
+		  "isCorrect": true
+		},
+		{
+		  "id": 292,
+		  "testId": 180,
+		  "optionText": "is",
+		  "isCorrect": false
+		}
+	  ]
+	},
+		{
+	  "id": 181,
+	  "sectionId": 2,
+	  "question": "Какие из следующих утверждений справедливы для статических методов?",
+	  "isCodeTest": false,
+	  "correctAnswer": "Статические методы могут быть перегружены, Статические методы не могут вызывать нестатические методы, Статические методы имеют доступ только к статическим членам класса",
+	  "testNumber": 181,
+	  "options": [
+		{
+		  "id": 293,
+		  "testId": 181,
+		  "optionText": "Статические методы могут быть перегружены",
+		  "isCorrect": true
+		},
+		{
+		  "id": 294,
+		  "testId": 181,
+		  "optionText": "Cтатические методы могут вызываться через экземпляры классов",
+		  "isCorrect": false
+		},
+		{
+		  "id": 295,
+		  "testId": 181,
+		  "optionText": "Статические методы не могут вызывать нестатические методы",
+		  "isCorrect": true
+		},
+		{
+		  "id": 296,
+		  "testId": 181,
+		  "optionText": "Статические методы имеют доступ только к статическим членам класса",
+		  "isCorrect": true
+		},
+		{
+		  "id": 297,
+		  "testId": 181,
+		  "optionText": "Статические методы могут быть виртуальными",
+		  "isCorrect": false
+		}
+	  ]
+	},
+	{
+  "id": 182,
+  "sectionId": 2,
+  "question": "Какие из следующих модификаторов могут быть применены к индексатору?",
+  "isCodeTest": false,
+  "correctAnswer": "protected, virtual, abstract",
+  "testNumber": 182,
+  "options": [
+    {
+      "id": 298,
+      "testId": 182,
+      "optionText": "protected",
+      "isCorrect": true
+    },
+    {
+      "id": 299,
+      "testId": 182,
+      "optionText": "virtual",
+      "isCorrect": true
+    },
+    {
+      "id": 300,
+      "testId": 182,
+      "optionText": "sealed",
+      "isCorrect": false
+    },
+    {
+      "id": 301,
+      "testId": 182,
+      "optionText": "abstract",
+      "isCorrect": true
+    }
+  ]
+},
+{
+  "id": 183,
+  "sectionId": 2,
+  "question": "Выберите верные пары операций, которые должны быть перегружены совместно:",
+  "isCodeTest": false,
+  "correctAnswer": "== и !=, << и >>",
+  "testNumber": 183,
+  "options": [
+    {
+      "id": 302,
+      "testId": 183,
+      "optionText": "== и !=",
+      "isCorrect": true
+    },
+    {
+      "id": 303,
+      "testId": 183,
+      "optionText": "< и <=",
+      "isCorrect": false
+    },
+    {
+      "id": 304,
+      "testId": 183,
+      "optionText": "+ и -",
+      "isCorrect": false
+    },
+    {
+      "id": 305,
+      "testId": 183,
+      "optionText": "& и |",
+      "isCorrect": false
+    },
+    {
+      "id": 306,
+      "testId": 183,
+      "optionText": "<< и >>",
+      "isCorrect": true
+    }
+  ]
+},
+{
+  "id": 184,
+  "sectionId": 2,
+  "question": "Что из перечисленного верно для конструкторов?",
+  "isCodeTest": false,
+  "correctAnswer": "Конструктор всегда имеет то же имя, что и класс, Конструктор может вызывать другой конструктор того же класса",
+  "testNumber": 184,
+  "options": [
+    {
+      "id": 307,
+      "testId": 184,
+      "optionText": "Конструктор может быть абстрактным",
+      "isCorrect": false
+    },
+    {
+      "id": 308,
+      "testId": 184,
+      "optionText": "Конструктор всегда имеет то же имя, что и класс",
+      "isCorrect": true
+    },
+    {
+      "id": 309,
+      "testId": 184,
+      "optionText": "Конструкторы могут быть виртуальными",
+      "isCorrect": false
+    },
+    {
+      "id": 310,
+      "testId": 184,
+      "optionText": "Конструктор может вызывать другой конструктор того же класса",
+      "isCorrect": true
+    },
+    {
+      "id": 311,
+      "testId": 184,
+      "optionText": "Конструктор может возвращать значение",
+      "isCorrect": false
+    }
+  ]
+},{
+  "id": 185,
+  "sectionId": 2,
+  "question": "Какое из следующих утверждений о модификаторе readonly верно?",
+  "isCodeTest": false,
+  "correctAnswer": "Поле readonly может быть инициализировано только при объявлении или в конструкторе, Поле readonly нельзя изменить после инициализации, Поле readonly может быть статическим",
+  "testNumber": 185,
+  "options": [
+    {
+      "id": 312,
+      "testId": 185,
+      "optionText": "Поле readonly может быть инициализировано только при объявлении или в конструкторе",
+      "isCorrect": true
+    },
+    {
+      "id": 313,
+      "testId": 185,
+      "optionText": "Поле readonly нельзя изменить после инициализации",
+      "isCorrect": true
+    },
+    {
+      "id": 314,
+      "testId": 185,
+      "optionText": "Поле readonly может быть статическим",
+      "isCorrect": true
+    },
+    {
+      "id": 315,
+      "testId": 185,
+      "optionText": "Поле readonly может быть инициализировано в любом методе класса",
+      "isCorrect": false
+    },
+    {
+      "id": 316,
+      "testId": 185,
+      "optionText": "Поле readonly нельзя использовать в структурах",
+      "isCorrect": false
+    }
+  ]
+},
+{
+  "id": 186,
+  "sectionId": 2,
+  "question": "Какие модификаторы доступа применимы к методам класса?",
+  "isCodeTest": false,
+  "correctAnswer": "sealed, internal, protected internal",
+  "testNumber": 186,
+  "options": [
+    {
+      "id": 317,
+      "testId": 186,
+      "optionText": "override",
+      "isCorrect": false
+    },
+    {
+      "id": 318,
+      "testId": 186,
+      "optionText": "private",
+      "isCorrect": false
+    },
+    {
+      "id": 319,
+      "testId": 186,
+      "optionText": "sealed",
+      "isCorrect": true
+    },
+    {
+      "id": 320,
+      "testId": 186,
+      "optionText": "internal",
+      "isCorrect": true
+    },
+    {
+      "id": 321,
+      "testId": 186,
+	  "optionText": "protected internal",
+      "isCorrect": true
+	}
+	]
+},
+{
+  "id": 187,
+  "sectionId": 2,
+  "question": "В следующем коде выберите строки, которые можно добавить в метод Main, чтобы программа скомпилировалась без ошибок:\nusing System;\npublic class BaseClass\n{\npublic virtual void Method(int x) { }\n}\npublic class DerivedClass : BaseClass\n{\npublic new void Method() { }\npublic void Method(int x, int y) { }\n}\npublic class Program\n{\npublic static void Main()\n{\nBaseClass obj = new DerivedClass();\n// ?\n}\n}",
+  "isCodeTest": false,
+  "correctAnswer": "obj.Method(1), ((DerivedClass)obj).Method()",
+  "testNumber": 187,
+  "options": [
+    {
+      "id": 322,
+      "testId": 187,
+      "optionText": "obj.Method(1)",
+      "isCorrect": true
+    },
+    {
+      "id": 323,
+      "testId": 187,
+      "optionText": "obj.Method()",
+      "isCorrect": false
+    },
+    {
+      "id": 324,
+      "testId": 187,
+      "optionText": "((DerivedClass)obj).Method()",
+      "isCorrect": true
+    },
+    {
+      "id": 325,
+      "testId": 187,
+      "optionText": "obj.Method(1, 2)",
+      "isCorrect": false
+    },
+    {
+      "id": 326,
+      "testId": 187,
+      "optionText": "((BaseClass)obj).Method()",
+      "isCorrect": false
+    }
+  ]
+},{
+  "id": 188,
+  "sectionId": 2,
+  "question": "Какой модификатор позволяет обратиться к члену класса только из его потомков?",
+  "isCodeTest": false,
+  "correctAnswer": "protected",
+  "testNumber": 188,
+  "options": [
+    {
+      "id": 327,
+      "testId": 188,
+      "optionText": "private",
+      "isCorrect": false
+    },
+    {
+      "id": 328,
+      "testId": 188,
+      "optionText": "internal",
+      "isCorrect": false
+    },
+    {
+      "id": 329,
+      "testId": 188,
+      "optionText": "protected",
+      "isCorrect": true
+    },
+    {
+      "id": 330,
+      "testId": 188,
+      "optionText": "public",
+      "isCorrect": false
+    }
+  ]
+},
+{
+  "id": 189,
+  "sectionId": 2,
+  "question": "Что произойдёт, если не переопределить конструктор в классе C#?",
+  "isCodeTest": false,
+  "correctAnswer": "Создаётся конструктор по умолчанию",
+  "testNumber": 189,
+  "options": [
+    {
+      "id": 331,
+      "testId": 189,
+      "optionText": "Ошибка компиляции",
+      "isCorrect": false
+    },
+    {
+      "id": 332,
+      "testId": 189,
+      "optionText": "Создаётся конструктор по умолчанию",
+      "isCorrect": true
+    },
+    {
+      "id": 333,
+      "testId": 189,
+      "optionText": "Класс становится статическим",
+      "isCorrect": false
+    },
+    {
+      "id": 334,
+      "testId": 189,
+      "optionText": "Поля класса не инициализируются",
+      "isCorrect": false
+    }
+  ]
+},
+{
+  "id": 190,
+  "sectionId": 2,
+  "question": "Какая из следующих конструкций используется для передачи значения в свойство?",
+  "isCodeTest": false,
+  "correctAnswer": "set",
+  "testNumber": 190,
+  "options": [
+    {
+      "id": 335,
+      "testId": 190,
+      "optionText": "init",
+      "isCorrect": false
+    },
+    {
+      "id": 336,
+      "testId": 190,
+      "optionText": "set",
+      "isCorrect": true
+    },
+    {
+      "id": 337,
+      "testId": 190,
+      "optionText": "get",
+      "isCorrect": false
+    },
+    {
+      "id": 338,
+      "testId": 190,
+      "optionText": "readonly",
+      "isCorrect": false
+    }
+  ]
+},
+{
+  "id": 191,
+  "sectionId": 2,
+  "question": "Чем отличается статический метод от экземплярного?",
+  "isCodeTest": false,
+  "correctAnswer": "Статический метод может обращаться только к статическим членам класса",
+  "testNumber": 191,
+  "options": [
+    {
+      "id": 339,
+      "testId": 191,
+      "optionText": "Статический метод может обращаться только к статическим членам класса",
+      "isCorrect": true
+    },
+    {
+      "id": 340,
+      "testId": 191,
+      "optionText": "Экземплярный метод не может использовать статические члены класса",
+      "isCorrect": false
+    },
+    {
+      "id": 341,
+      "testId": 191,
+      "optionText": "Статический метод доступен только в пределах текущего класса",
+      "isCorrect": false
+    },
+    {
+      "id": 342,
+      "testId": 191,
+      "optionText": "Экземплярный метод вызывается без создания объекта",
+      "isCorrect": false
+    }
+  ]
+},
+{
+  "id": 192,
+  "sectionId": 2,
+  "question": "Что из перечисленного нельзя использовать для классов в C#?",
+  "isCodeTest": false,
+  "correctAnswer": "Множественное наследование",
+  "testNumber": 192,
+  "options": [
+    {
+      "id": 343,
+      "testId": 192,
+      "optionText": "Наследование",
+      "isCorrect": false
+    },
+    {
+      "id": 344,
+      "testId": 192,
+      "optionText": "Инкапсуляцию",
+      "isCorrect": false
+    },
+    {
+      "id": 345,
+      "testId": 192,
+      "optionText": "Множественное наследование",
+      "isCorrect": true
+    },
+    {
+      "id": 346,
+      "testId": 192,
+      "optionText": "Полиморфизм",
+      "isCorrect": false
+    }
+  ]
+},
+{
+  "id": 193,
+  "sectionId": 2,
+  "question": "Что означает следующая строка кода?\npublic static int Count { get; private set; }",
+  "isCodeTest": false,
+  "correctAnswer": "Свойство Count доступно для записи только внутри текущего класса",
+  "testNumber": 193,
+  "options": [
+    {
+      "id": 347,
+      "testId": 193,
+      "optionText": "Свойство Count доступно только для чтения",
+      "isCorrect": false
+    },
+    {
+      "id": 348,
+      "testId": 193,
+      "optionText": "Свойство Count доступно для записи только внутри текущего класса",
+      "isCorrect": true
+    },
+    {
+      "id": 349,
+      "testId": 193,
+      "optionText": "Свойство Count доступно для записи только наследникам",
+      "isCorrect": false
+    },
+    {
+      "id": 350,
+      "testId": 193,
+      "optionText": "Свойство Count доступно для записи только из другой сборки",
+      "isCorrect": false
+    }
+  ]
+},{
+  "id": 194,
+  "sectionId": 2,
+  "question": "Какой модификатор доступа используется для ограничения доступа к члену класса только в пределах его наследников и сборки?",
+  "isCodeTest": false,
+  "correctAnswer": "protected internal",
+  "testNumber": 194,
+  "options": [
+    { "id": 351, "testId": 194, "optionText": "internal", "isCorrect": false },
+    { "id": 352, "testId": 194, "optionText": "private", "isCorrect": false },
+    { "id": 353, "testId": 194, "optionText": "protected private", "isCorrect": false },
+    { "id": 354, "testId": 194, "optionText": "protected internal", "isCorrect": true },
+    { "id": 355, "testId": 194, "optionText": "public", "isCorrect": false }
+  ]
+},
+{
+  "id": 195,
+  "sectionId": 2,
+  "question": "Что произойдёт, если в классе с явно определённым конструктором не будет указан конструктор по умолчанию?",
+  "isCodeTest": false,
+  "correctAnswer": "Возникнет ошибка компиляции при попытке создать объект без параметров",
+  "testNumber": 195,
+  "options": [
+    { "id": 356, "testId": 195, "optionText": "Конструктор по умолчанию создаётся автоматически", "isCorrect": false },
+    { "id": 357, "testId": 195, "optionText": "Возникнет ошибка компиляции при попытке создать объект без параметров", "isCorrect": true },
+    { "id": 358, "testId": 195, "optionText": "Класс станет статическим", "isCorrect": false },
+    { "id": 359, "testId": 195, "optionText": "Компилятор добавит публичный конструктор по умолчанию", "isCorrect": false }
+  ]
+},
+{
+  "id": 196,
+  "sectionId": 2,
+  "question": "Какой уровень доступа по умолчанию имеют члены класса в C#?",
+  "isCodeTest": false,
+  "correctAnswer": "private",
+  "testNumber": 196,
+  "options": [
+    { "id": 360, "testId": 196, "optionText": "public", "isCorrect": false },
+    { "id": 361, "testId": 196, "optionText": "private", "isCorrect": true },
+    { "id": 362, "testId": 196, "optionText": "internal", "isCorrect": false },
+    { "id": 363, "testId": 196, "optionText": "protected", "isCorrect": false }
+  ]
+},
+{
+  "id": 197,
+  "sectionId": 2,
+  "question": "Что из перечисленного не входит в определение класса?",
+  "isCodeTest": false,
+  "correctAnswer": "Инстанцирование",
+  "testNumber": 197,
+  "options": [
+    { "id": 364, "testId": 197, "optionText": "Конструкторы", "isCorrect": false },
+    { "id": 365, "testId": 197, "optionText": "Поля", "isCorrect": false },
+    { "id": 366, "testId": 197, "optionText": "Методы", "isCorrect": false },
+    { "id": 367, "testId": 197, "optionText": "Инстанцирование", "isCorrect": true }
+  ]
+},
+{
+  "id": 198,
+  "sectionId": 2,
+  "question": "Какие свойства считаются автореализуемыми?",
+  "isCodeTest": false,
+  "correctAnswer": "Свойства, для которых компилятор автоматически создаёт скрытые поля",
+  "testNumber": 198,
+  "options": [
+    { "id": 368, "testId": 198, "optionText": "Свойства, для которых компилятор автоматически создаёт скрытые поля", "isCorrect": true },
+    { "id": 369, "testId": 198, "optionText": "Свойства, доступные только для чтения", "isCorrect": false },
+    { "id": 370, "testId": 198, "optionText": "Свойства, которые содержат только get аксессор", "isCorrect": false },
+    { "id": 371, "testId": 198, "optionText": "Свойства, использующие индексаторы", "isCorrect": false }
+  ]
+},
+{
+  "id": 199,
+  "sectionId": 2,
+  "question": "Какое ключевое слово используется для создания метода, который можно переопределить в производном классе?",
+  "isCodeTest": false,
+  "correctAnswer": "virtual",
+  "testNumber": 199,
+  "options": [
+    { "id": 372, "testId": 199, "optionText": "override", "isCorrect": false },
+    { "id": 373, "testId": 199, "optionText": "abstract", "isCorrect": false },
+    { "id": 374, "testId": 199, "optionText": "virtual", "isCorrect": true },
+    { "id": 375, "testId": 199, "optionText": "protected", "isCorrect": false }
+  ]
+},
+{
+  "id": 200,
+  "sectionId": 2,
+  "question": "Что означает ключевое слово base в конструкторе производного класса?",
+  "isCodeTest": false,
+  "correctAnswer": "Используется для вызова конструктора базового класса",
+  "testNumber": 200,
+  "options": [
+    { "id": 376, "testId": 200, "optionText": "Указывает на объект базового класса", "isCorrect": false },
+    { "id": 377, "testId": 200, "optionText": "Используется для вызова конструктора базового класса", "isCorrect": true },
+    { "id": 378, "testId": 200, "optionText": "Указывает на базовую реализацию метода", "isCorrect": false },
+    { "id": 379, "testId": 200, "optionText": "Используется для создания нового экземпляра класса", "isCorrect": false }
+  ]
+},
+{
+  "id": 201,
+  "sectionId": 2,
+  "question": "Какой тип отношений между классами описывает наследование?",
+  "isCodeTest": false,
+  "correctAnswer": "IS A",
+  "testNumber": 201,
+  "options": [
+    { "id": 380, "testId": 201, "optionText": "IS A", "isCorrect": true },
+    { "id": 381, "testId": 201, "optionText": "HAS A", "isCorrect": false },
+    { "id": 382, "testId": 201, "optionText": "USES", "isCorrect": false },
+    { "id": 383, "testId": 201, "optionText": "IMPLEMENTS", "isCorrect": false }
+  ]
+},
+{
+  "id": 202,
+  "sectionId": 2,
+  "question": "Что означает переопределение метода в производном классе?",
+  "isCodeTest": false,
+  "correctAnswer": "Замена реализации метода базового класса",
+  "testNumber": 202,
+  "options": [
+    { "id": 384, "testId": 202, "optionText": "Добавление нового метода с таким же именем", "isCorrect": false },
+    { "id": 385, "testId": 202, "optionText": "Использование конструктора базового класса", "isCorrect": false },
+    { "id": 386, "testId": 202, "optionText": "Замена реализации метода базового класса", "isCorrect": true },
+    { "id": 387, "testId": 202, "optionText": "Ограничение доступа к методу базового класса", "isCorrect": false }
+  ]
+},
+{
+  "id": 203,
+  "sectionId": 2,
+  "question": "Какое ключевое слово используется для вызова конструктора базового класса?",
+  "isCodeTest": false,
+  "correctAnswer": "base",
+  "testNumber": 203,
+  "options": [
+    { "id": 388, "testId": 203, "optionText": "this", "isCorrect": false },
+    { "id": 389, "testId": 203, "optionText": "parent", "isCorrect": false },
+    { "id": 390, "testId": 203, "optionText": "base", "isCorrect": true },
+    { "id": 391, "testId": 203, "optionText": "super", "isCorrect": false }
+  ]
+},
+{
+  "id": 204,
+  "sectionId": 2,
+  "question": "Что из перечисленного верно для конструктора производного класса?",
+  "isCodeTest": false,
+  "correctAnswer": "Он вызывается после выполнения конструктора базового класса",
+  "testNumber": 204,
+  "options": [
+    { "id": 392, "testId": 204, "optionText": "Он должен явно вызывать конструктор базового класса", "isCorrect": false },
+    { "id": 393, "testId": 204, "optionText": "Он наследуется от базового класса", "isCorrect": false },
+    { "id": 394, "testId": 204, "optionText": "Он может быть перегружен", "isCorrect": false },
+    { "id": 395, "testId": 204, "optionText": "Он вызывается после выполнения конструктора базового класса", "isCorrect": true }
+  ]
+},{
+  "id": 205,
+  "sectionId": 2,
+  "question": "Какое ключевое слово используется для сокрытия метода базового класса в производном классе?",
+  "isCodeTest": false,
+  "correctAnswer": "new",
+  "testNumber": 205,
+  "options": [
+    {
+      "id": 396,
+      "testId": 205,
+      "optionText": "override",
+      "isCorrect": false
+    },
+    {
+      "id": 397,
+      "testId": 205,
+      "optionText": "abstract",
+      "isCorrect": false
+    },
+    {
+      "id": 398,
+      "testId": 205,
+      "optionText": "new",
+      "isCorrect": true
+    },
+    {
+      "id": 399,
+      "testId": 205,
+      "optionText": "virtual",
+      "isCorrect": false
+    },
+    {
+      "id": 400,
+      "testId": 205,
+      "optionText": "protected",
+      "isCorrect": false
+    }
+  ]
+},
+{
+  "id": 206,
+  "sectionId": 2,
+  "question": "Какие типы членов класса доступны через ключевое слово base?",
+  "isCodeTest": false,
+  "correctAnswer": "Публичные и защищённые",
+  "testNumber": 206,
+  "options": [
+    {
+      "id": 401,
+      "testId": 206,
+      "optionText": "Только публичные",
+      "isCorrect": false
+    },
+    {
+      "id": 402,
+      "testId": 206,
+      "optionText": "Публичные и защищённые",
+      "isCorrect": true
+    },
+    {
+      "id": 403,
+      "testId": 206,
+      "optionText": "Только приватные",
+      "isCorrect": false
+    },
+    {
+      "id": 404,
+      "testId": 206,
+      "optionText": "Только защищённые",
+      "isCorrect": false
+    }
+  ]
+},
+{
+  "id": 207,
+  "sectionId": 2,
+  "question": "В класс A требуется добавить статический конструктор - возможным вариантом его реализации является:\npublic static class A\n{static double field = 5;\n const double con = 1.22;\n//статический конструктор\n \n}",
+  "isCodeTest": false,
+  "correctAnswer": "static A() { field = con * Math.E; }, static A() { field = 15*field / Math.E; }",
+  "testNumber": 207,
+  "options": [
+    {
+      "id": 405,
+      "testId": 207,
+      "optionText": "static () { field = 15*field / Math.E; }",
+      "isCorrect": false
+    },
+    {
+      "id": 406,
+      "testId": 207,
+      "optionText": "static A() { field = con * Math.E; }",
+      "isCorrect": true
+    },
+    {
+      "id": 407,
+      "testId": 207,
+      "optionText": "static A() { field = 15*field / Math.E; }",
+      "isCorrect": true
+    },
+    {
+      "id": 408,
+      "testId": 207,
+      "optionText": "static A(double p) { field = 4 * p * Math.E; }",
+      "isCorrect": false
+    },
+    {
+      "id": 409,
+      "testId": 207,
+      "optionText": "static A() { field = p * d; }",
+      "isCorrect": false
+    }
+  ]
+},
+{
+  "id": 208,
+  "sectionId": 2,
+  "question": "Верно, что:",
+  "isCodeTest": false,
+  "correctAnswer": "значением ссылки this является ссылка на тот объект, обработка которого выполняется, статические методы не имеют доступа к ссылке this, ссылка this автоматически включена в каждый нестатический метод",
+  "testNumber": 208,
+  "options": [
+    {
+      "id": 410,
+      "testId": 208,
+      "optionText": "значением ссылки this является ссылка на тот объект, обработка которого выполняется",
+      "isCorrect": true
+    },
+    {
+      "id": 411,
+      "testId": 208,
+      "optionText": "статические методы не имеют доступа к ссылке this",
+      "isCorrect": true
+    },
+    {
+      "id": 412,
+      "testId": 208,
+      "optionText": "для статического метода ссылка this имеет значение null",
+      "isCorrect": false
+    },
+    {
+      "id": 413,
+      "testId": 208,
+      "optionText": "для обращения метода к произвольному члену того же класса обязательно использование ссылки this",
+      "isCorrect": false
+    },
+    {
+      "id": 414,
+      "testId": 208,
+      "optionText": "ссылка this автоматически включена в каждый нестатический метод",
+      "isCorrect": true
+    }
+  ]
+},
+{
+  "id": 209,
+  "sectionId": 2,
+  "question": "Что выведет следующий код?\nusing System;\nclass A {\n    public int[] ar;\n    public A(int[] a) { ar = a; }\n    public int this[int i] {\n        get { return ar[i]; }\n        set { ar[i] = value > 0 ? value : -1; }\n    }\n}\nclass Program {\n    static void Main() {\n        int[] mAr = { 11, 12, 15 };\n        A x = new A(mAr);\n        x[1] = -2;\n        mAr[0] = -2;\n        foreach (int a in x.ar)\n            Console.Write(a);\n    }\n}",
+  "isCodeTest": true,
+  "correctAnswer": "-2-115",
+  "testNumber": 209,
+  "options": []
+},
+{
+  "id": 210,
+  "sectionId": 2,
+  "question": "Базовым для перечисления может быть тип:",
+  "isCodeTest": false,
+  "correctAnswer": "byte, sbyte",
+  "testNumber": 210,
+  "options": [
+    {
+      "id": 415,
+      "testId": 210,
+      "optionText": "char",
+      "isCorrect": false
+    },
+    {
+      "id": 416,
+      "testId": 210,
+      "optionText": "int",
+      "isCorrect": false
+    },
+    {
+      "id": 417,
+      "testId": 210,
+      "optionText": "string",
+      "isCorrect": false
+    },
+    {
+      "id": 418,
+      "testId": 210,
+      "optionText": "byte",
+      "isCorrect": true
+    },
+    {
+      "id": 419,
+      "testId": 210,
+      "optionText": "sbyte",
+      "isCorrect": true
+    }
+  ]
+},
+{
+  "id": 211,
+  "sectionId": 2,
+  "question": "В программе описан класс A - Какие члены будут доступны членам любого производного от A класса:\nclass А {\n    public short і, j = 0;\n    int num;\n    protected char ch, chTemp;\n    private double account;\n}",
+  "isCodeTest": false,
+  "correctAnswer": "i, j, ch, chTemp",
+  "testNumber": 211,
+  "options": [
+    {
+      "id": 420,
+      "testId": 211,
+      "optionText": "і",
+      "isCorrect": false
+    },
+    {
+      "id": 421,
+      "testId": 211,
+      "optionText": "i, j, num",
+      "isCorrect": false
+    },
+    {
+      "id": 422,
+      "testId": 211,
+      "optionText": "i, j",
+      "isCorrect": false
+    },
+    {
+      "id": 423,
+      "testId": 211,
+      "optionText": "i, j, ch, chTemp",
+      "isCorrect": true
+    }
+  ]
+},
+{
+  "id": 212,
+  "sectionId": 2,
+  "question": "В открытом классе W определён только один конструктор - в каких строках будут выявлены ошибки:\nclass W {\n    public int d;\n    public W(double s, char ch) { d = (int)s + ch; }\n}",
+  "isCodeTest": false,
+  "correctAnswer": "W r = new W();, W[] y = new W[5];",
+  "testNumber": 212,
+  "options": [
+    {
+      "id": 424,
+      "testId": 212,
+      "optionText": "W r = new W();",
+      "isCorrect": true
+    },
+    {
+      "id": 425,
+      "testId": 212,
+      "optionText": "W[] p = new W[3];",
+      "isCorrect": false
+    },
+    {
+      "id": 426,
+      "testId": 212,
+      "optionText": "W s = new W(32.4, 'g');",
+      "isCorrect": false
+    },
+    {
+      "id": 427,
+      "testId": 212,
+      "optionText": "W[] t = new (W(8.4, 'r'), new W(1e-2, '9'), new W());",
+      "isCorrect": false
+    },
+    {
+      "id": 428,
+      "testId": 212,
+      "optionText": "W[] y = new W[5];",
+      "isCorrect": true
+    }
+  ]
+},
+{
+  "id": 213,
+  "sectionId": 2,
+  "question": "Что выведет следующий код?\nusing System;\nclass One {\n    int g = 5;\n    public One() { Console.Write(f() + \"d\" + g++); }\n    protected string f() { return \"\" + ++g; }\n}\nclass Two : One {\n    public Two() { Console.Write(\"b\" + f()); }\n}\nclass Program {\n    static void Main() {\n        Two ob = new Two();\n    }\n}",
+  "isCodeTest": true,
+  "correctAnswer": "6d6b8",
+  "testNumber": 213,
+  "options": []
+},
+{
+  "id": 214,
+  "sectionId": 2,
+  "question": "Верно, что виртуальным может быть:",
+  "isCodeTest": false,
+  "correctAnswer": "метод класса, свойство объекта",
+  "testNumber": 214,
+  "options": [
+    {
+      "id": 429,
+      "testId": 214,
+      "optionText": "метод класса",
+      "isCorrect": true
+    },
+    {
+      "id": 430,
+      "testId": 214,
+      "optionText": "конструктор класса",
+      "isCorrect": false
+    },
+    {
+      "id": 431,
+      "testId": 214,
+      "optionText": "поле объекта",
+      "isCorrect": false
+    },
+    {
+      "id": 432,
+      "testId": 214,
+      "optionText": "свойство объекта",
+      "isCorrect": true
+    },
+    {
+      "id": 433,
+      "testId": 214,
+      "optionText": "свойство класса",
+      "isCorrect": false
+    }
+  ]
+},
+{
+  "id": 215,
+  "sectionId": 2,
+  "question": "Что выведет следующий код?\nusing System;\nclass A {\n    public A() { print(); }\n    public virtual void print() { Console.Write(\"!\"); }\n}\nclass B : A {\n    int x = 1, y;\n    public B() { y = -1; }\n    public override void print() {\n        Console.Write(x.ToString() + y.ToString());\n    }\n}\nclass Program {\n    static void Main() {\n        B obj = new B();\n    }\n}",
+  "isCodeTest": true,
+  "correctAnswer": "10",
+  "testNumber": 215,
+  "options": []
+},
+{
+  "id": 216,
+  "sectionId": 2,
+  "question": "Какие из команд могут быть добавлены вместо пропусков в 4-ую строку метода Main() фрагмента программы:\nusing System;\nclass A {\n    int x = 1;\n    public virtual void meth() { Console.Write(\"f\" + x); }\n}\nclass B : A {\n    int x = 4;\n    public B() { meth(4); Console.Write(\"w\" + x++); }\n    public void meth(int z) { x = 2 * z; }\n}\nclass Program {\n    static void Main() //1\n    { //2\n        A b = new B(); //3\n        //4\n    }\n}",
+  "isCodeTest": false,
+  "correctAnswer": "b.meth();",
+  "testNumber": 216,
+  "options": [
+    {
+      "id": 434,
+      "testId": 216,
+      "optionText": "b.meth(3, 3);",
+      "isCorrect": false
+    },
+    {
+      "id": 435,
+      "testId": 216,
+      "optionText": "b.meth(3);",
+      "isCorrect": false
+    },
+    {
+      "id": 436,
+      "testId": 216,
+      "optionText": "b.meth();",
+      "isCorrect": true
+    },
+    {
+      "id": 437,
+      "testId": 216,
+      "optionText": "b.meth('a');",
+      "isCorrect": false
+    },
+    {
+      "id": 438,
+      "testId": 216,
+      "optionText": "b.meth(3.8);",
+      "isCorrect": false
+    }
+  ]
+},
+{
+  "id": 217,
+  "sectionId": 2,
+  "question": "Что является основной особенностью статического полиморфизма?",
+  "isCodeTest": false,
+  "correctAnswer": "Связывание на этапе компиляции",
+  "testNumber": 217,
+  "options": [
+    {
+      "id": 439,
+      "testId": 217,
+      "optionText": "Использование виртуальных методов",
+      "isCorrect": false
+    },
+    {
+      "id": 440,
+      "testId": 217,
+      "optionText": "Связывание на этапе компиляции",
+      "isCorrect": true
+    },
+    {
+      "id": 441,
+      "testId": 217,
+      "optionText": "Позднее связывание",
+      "isCorrect": false
+    },
+    {
+      "id": 442,
+      "testId": 217,
+      "optionText": "Использование модификатора override",
+      "isCorrect": false
+    }
+  ]
+},
+{
+  "id": 218,
+  "sectionId": 2,
+  "question": "Какие операции обязательно перегружаются парами?",
+  "isCodeTest": false,
+  "correctAnswer": "< и <=, == и !=",
+  "testNumber": 218,
+  "options": [
+    {
+      "id": 443,
+      "testId": 218,
+      "optionText": "< и <=",
+      "isCorrect": true
+    },
+    {
+      "id": 444,
+      "testId": 218,
+      "optionText": "+ и -",
+      "isCorrect": false
+    },
+    {
+      "id": 445,
+      "testId": 218,
+      "optionText": "* и /",
+      "isCorrect": false
+    },
+    {
+      "id": 446,
+      "testId": 218,
+      "optionText": "== и !=",
+      "isCorrect": true
+    },
+    {
+      "id": 447,
+      "testId": 218,
+      "optionText": "& и |",
+      "isCorrect": false
+    }
+  ]
+},
+{
+  "id": 219,
+  "sectionId": 2,
+  "question": "Что из перечисленного нельзя перегрузить?",
+  "isCodeTest": false,
+  "correctAnswer": "Тернарный оператор",
+  "testNumber": 219,
+  "options": [
+    {
+      "id": 448,
+      "testId": 219,
+      "optionText": "Унарный минус",
+      "isCorrect": false
+    },
+    {
+      "id": 449,
+      "testId": 219,
+      "optionText": "Оператор +",
+      "isCorrect": false
+    },
+    {
+      "id": 450,
+      "testId": 219,
+      "optionText": "Тернарный оператор",
+      "isCorrect": true
+    },
+    {
+      "id": 451,
+      "testId": 219,
+      "optionText": "Оператор ==",
+      "isCorrect": false
+    }
+  ]
+},
+{
+  "id": 220,
+  "sectionId": 2,
+  "question": "Какие особенности имеет перегрузка операций true и false?",
+  "isCodeTest": false,
+  "correctAnswer": "Перегружаются одновременно",
+  "testNumber": 220,
+  "options": [
+    {
+      "id": 452,
+      "testId": 220,
+      "optionText": "Эти операции вызываются напрямую",
+      "isCorrect": false
+    },
+    {
+      "id": 453,
+      "testId": 220,
+      "optionText": "Перегружаются одновременно",
+      "isCorrect": true
+    },
+    {
+      "id": 454,
+      "testId": 220,
+      "optionText": "Требуют использования операторов && и ||",
+      "isCorrect": false
+    },
+    {
+      "id": 455,
+      "testId": 220,
+      "optionText": "Должны возвращать число",
+      "isCorrect": false
+    }
+  ]
+},
+{
+  "id": 221,
+  "sectionId": 2,
+  "question": "Какие операции перегружаются автоматически при перегрузке бинарных операций?",
+  "isCodeTest": false,
+  "correctAnswer": "Операции составного присваивания",
+  "testNumber": 221,
+  "options": [
+    {
+      "id": 456,
+      "testId": 221,
+      "optionText": "Операции true и false",
+      "isCorrect": false
+    },
+    {
+      "id": 457,
+      "testId": 221,
+      "optionText": "Операции составного присваивания",
+      "isCorrect": true
+    },
+    {
+      "id": 458,
+      "testId": 221,
+      "optionText": "Операции сравнения",
+      "isCorrect": false
+    },
+    {
+      "id": 459,
+      "testId": 221,
+      "optionText": "Унарные операции",
+      "isCorrect": false
+    }
+  ]
+},
+{
+  "id": 222,
+  "sectionId": 2,
+  "question": "Что означает позднее связывание метода?",
+  "isCodeTest": false,
+  "correctAnswer": "Выбор метода во время выполнения программы",
+  "testNumber": 222,
+  "options": [
+    {
+      "id": 460,
+      "testId": 222,
+      "optionText": "Определение метода в момент компиляции",
+      "isCorrect": false
+    },
+    {
+      "id": 461,
+      "testId": 222,
+      "optionText": "Использование статических методов",
+      "isCorrect": false
+    },
+    {
+      "id": 462,
+      "testId": 222,
+      "optionText": "Выбор метода во время выполнения программы",
+      "isCorrect": true
+    },
+    {
+      "id": 463,
+      "testId": 222,
+      "optionText": "Оптимизация производительности при вызове метода",
+      "isCorrect": false
+    }
+  ]
+},
+{
+  "id": 223,
+  "sectionId": 2,
+  "question": "Что из перечисленного обязательно должно совпадать для методов при переопределении?",
+  "isCodeTest": false,
+  "correctAnswer": "Все перечисленные",
+  "testNumber": 223,
+  "options": [
+    {
+      "id": 464,
+      "testId": 223,
+      "optionText": "Модификатор доступа",
+      "isCorrect": false
+    },
+    {
+      "id": 465,
+      "testId": 223,
+      "optionText": "Тип возвращаемого значения",
+      "isCorrect": false
+    },
+    {
+      "id": 466,
+      "testId": 223,
+      "optionText": "Имя и сигнатура метода",
+      "isCorrect": false
+    },
+    {
+      "id": 467,
+      "testId": 223,
+      "optionText": "Все перечисленные",
+      "isCorrect": true
+    }
+  ]
+},
+{
+  "id": 224,
+  "sectionId": 2,
+  "question": "Какое поведение демонстрирует метод базового класса при экранировании (new) в производном классе?",
+  "isCodeTest": false,
+  "correctAnswer": "Метод базового класса вызывается только через ссылку базового типа",
+  "testNumber": 224,
+  "options": [
+    {
+      "id": 468,
+      "testId": 224,
+      "optionText": "Метод базового класса всегда вызывается независимо от ссылки",
+      "isCorrect": false
+    },
+    {
+      "id": 469,
+      "testId": 224,
+      "optionText": "Метод базового класса вызывается только через ссылку базового типа",
+      "isCorrect": true
+    },
+    {
+      "id": 470,
+      "testId": 224,
+      "optionText": "Метод базового класса заменяется в производном классе",
+      "isCorrect": false
+    },
+    {
+      "id": 471,
+      "testId": 224,
+      "optionText": "Метод базового класса становится недоступным",
+      "isCorrect": false
+    }
+  ]
+},{
+  "id": 225,
+  "sectionId": 2,
+  "question": "Что из перечисленного верно для абстрактных методов?",
+  "isCodeTest": false,
+  "correctAnswer": "Абстрактный метод не может содержать реализации",
+  "testNumber": 225,
+  "options": [
+    {
+      "id": 472,
+      "testId": 225,
+      "optionText": "Абстрактный метод может быть объявлен в любом классе",
+      "isCorrect": false
+    },
+    {
+      "id": 473,
+      "testId": 225,
+      "optionText": "Абстрактный метод не может содержать реализации",
+      "isCorrect": true
+    },
+    {
+      "id": 474,
+      "testId": 225,
+      "optionText": "Абстрактный метод может иметь модификатор static",
+      "isCorrect": false
+    },
+    {
+      "id": 475,
+      "testId": 225,
+      "optionText": "Абстрактный метод обязан быть объявлен с модификатором sealed",
+      "isCorrect": false
+    }
+  ]
+},
+{
+  "id": 226,
+  "sectionId": 2,
+  "question": "Какое отношение между классами характеризуется связью \"HAS-A\"?",
+  "isCodeTest": false,
+  "correctAnswer": "Композиция",
+  "testNumber": 226,
+  "options": [
+    {
+      "id": 476,
+      "testId": 226,
+      "optionText": "Наследование",
+      "isCorrect": false
+    },
+    {
+      "id": 477,
+      "testId": 226,
+      "optionText": "Полиморфизм",
+      "isCorrect": false
+    },
+    {
+      "id": 478,
+      "testId": 226,
+      "optionText": "Композиция",
+      "isCorrect": true
+    },
+    {
+      "id": 479,
+      "testId": 226,
+      "optionText": "Инкапсуляция",
+      "isCorrect": false
+    }
+  ]
+},
+{
+  "id": 227,
+  "sectionId": 2,
+  "question": "Какая из характеристик агрегации верна?",
+  "isCodeTest": false,
+  "correctAnswer": "Агрегация отражает отношение \"является частью\"",
+  "testNumber": 227,
+  "options": [
+    {
+      "id": 480,
+      "testId": 227,
+      "optionText": "Агрегация отражает отношение \"является частью\"",
+      "isCorrect": true
+    },
+    {
+      "id": 481,
+      "testId": 227,
+      "optionText": "Агрегация требует, чтобы объект-часть был уничтожен вместе с объектом-агрегатом",
+      "isCorrect": false
+    },
+    {
+      "id": 482,
+      "testId": 227,
+      "optionText": "Агрегация — это более сильная форма композиции",
+      "isCorrect": false
+    },
+    {
+      "id": 483,
+      "testId": 227,
+      "optionText": "Агрегация поддерживает отношение IS-A",
+      "isCorrect": false
+    }
+  ]
+},
+{
+  "id": 228,
+  "sectionId": 2,
+  "question": "Какое из утверждений о наследовании верно?",
+  "isCodeTest": false,
+  "correctAnswer": "Наследование позволяет производному классу расширять или изменять функциональность базового класса",
+  "testNumber": 228,
+  "options": [
+    {
+      "id": 484,
+      "testId": 228,
+      "optionText": "Производный класс всегда наследует реализацию всех методов базового класса",
+      "isCorrect": false
+    },
+    {
+      "id": 485,
+      "testId": 228,
+      "optionText": "Наследование всегда подразумевает отношение \"HAS-A\"",
+      "isCorrect": false
+    },
+    {
+      "id": 486,
+      "testId": 228,
+      "optionText": "Наследование позволяет производному классу расширять или изменять функциональность базового класса",
+      "isCorrect": true
+    },
+    {
+      "id": 487,
+      "testId": 228,
+      "optionText": "Наследование не поддерживает полиморфизм",
+      "isCorrect": false
+    }
+  ]
+},
+{
+  "id": 229,
+  "sectionId": 2,
+  "question": "Чем отличается значение по умолчанию для int? от значения по умолчанию для int?",
+  "isCodeTest": false,
+  "correctAnswer": "Значение по умолчанию для int — 0, а для int? — null",
+  "testNumber": 229,
+  "options": [
+    {
+      "id": 488,
+      "testId": 229,
+      "optionText": "Они идентичны, оба равны 0",
+      "isCorrect": false
+    },
+    {
+      "id": 489,
+      "testId": 229,
+      "optionText": "Значение по умолчанию для int — 0, а для int? — null",
+      "isCorrect": true
+    },
+    {
+      "id": 490,
+      "testId": 229,
+      "optionText": "Значение по умолчанию для обоих типов — null",
+      "isCorrect": false
+    },
+    {
+      "id": 491,
+      "testId": 229,
+      "optionText": "Значение по умолчанию зависит от платформы",
+      "isCorrect": false
+    }
+  ]
+},
+{
+  "id": 230,
+  "sectionId": 2,
+  "question": "Что из перечисленного относится к типам значений?",
+  "isCodeTest": false,
+  "correctAnswer": "enum, int, struct",
+  "testNumber": 230,
+  "options": [
+    {
+      "id": 492,
+      "testId": 230,
+      "optionText": "enum",
+      "isCorrect": true
+    },
+    {
+      "id": 493,
+      "testId": 230,
+      "optionText": "class",
+      "isCorrect": false
+    },
+    {
+      "id": 494,
+      "testId": 230,
+      "optionText": "int",
+      "isCorrect": true
+    },
+    {
+      "id": 495,
+      "testId": 230,
+      "optionText": "struct",
+      "isCorrect": true
+    }
+  ]
+},
+{
+  "id": 231,
+  "sectionId": 2,
+  "question": "Среди перечисленных утверждений выберите верные:",
+  "isCodeTest": false,
+  "correctAnswer": "Абстрактный класс может не иметь абстрактных членов, Абстрактный член класса не может иметь реализации",
+  "testNumber": 231,
+  "options": [
+    {
+      "id": 496,
+      "testId": 231,
+      "optionText": "Класс, производный (наследуемый) от абстрактного, не может быть абстрактным",
+      "isCorrect": false
+    },
+    {
+      "id": 497,
+      "testId": 231,
+      "optionText": "Абстрактный класс может не иметь абстрактных членов",
+      "isCorrect": true
+    },
+    {
+      "id": 498,
+      "testId": 231,
+      "optionText": "Абстрактный член класса не может иметь реализации",
+      "isCorrect": true
+    },
+    {
+      "id": 499,
+      "testId": 231,
+      "optionText": "Абстрактный класс не может включать поля (данных)",
+      "isCorrect": false
+    },
+    {
+      "id": 500,
+      "testId": 231,
+      "optionText": "Абстрактный класс не может включать статические члены",
+      "isCorrect": false
+    }
+  ]
+},
+{
+  "id": 232,
+  "sectionId": 2,
+  "question": "Абстрактным членом класса может быть:",
+  "isCodeTest": false,
+  "correctAnswer": "свойство, индексатор, метод",
+  "testNumber": 232,
+  "options": [
+    {
+      "id": 501,
+      "testId": 232,
+      "optionText": "поле",
+      "isCorrect": false
+    },
+    {
+      "id": 502,
+      "testId": 232,
+      "optionText": "свойство",
+      "isCorrect": true
+    },
+    {
+      "id": 503,
+      "testId": 232,
+      "optionText": "деструктор",
+      "isCorrect": false
+    },
+    {
+      "id": 504,
+      "testId": 232,
+      "optionText": "конструктор",
+      "isCorrect": false
+    },
+    {
+      "id": 505,
+      "testId": 232,
+      "optionText": "индексатор",
+      "isCorrect": true
+    },
+    {
+      "id": 506,
+      "testId": 232,
+      "optionText": "перечисление",
+      "isCorrect": false
+    },
+    {
+      "id": 507,
+      "testId": 232,
+      "optionText": "метод",
+      "isCorrect": true
+    }
+  ]
+},{
+  "id": 233,
+  "sectionId": 2,
+  "question": "Как завершится следующий код?\npublic class A\n{\n  public virtual void Display() => Console.WriteLine('Class A');\n}\n\npublic class B : A\n{\n  public new void Display() => Console.WriteLine('Class B');\n}\n\npublic class C : B\n{\n  public override void Display() => Console.WriteLine('Class C');\n}\n\npublic class Program\n{\n  public static void Main()\n  {\n    A obj = new C();\n    obj.Display();\n  }\n}",
+  "isCodeTest": true,
+  "correctAnswer": "*",
+  "testNumber": 233,
+  "options": []
+	}
+	  ]
+    },
+    {
+      "id": 3,
+      "name": "Продвинутые темы",
+      "tests": [
+	 {
+  "id": 234,
+  "sectionId": 2,
+  "question": "Что такое делегат в C#?",
+  "isCodeTest": false,
+  "correctAnswer": "Тип данных, представляющий метод, который может быть вызван в дальнейшем",
+  "testNumber": 234,
+  "options": [
+    {
+      "id": 508,
+      "testId": 234,
+      "optionText": "Тип данных, представляющий метод, который может быть вызван в дальнейшем",
+      "isCorrect": true
+    },
+    {
+      "id": 509,
+      "testId": 234,
+      "optionText": "Структура данных для хранения набора методов",
+      "isCorrect": false
+    },
+    {
+      "id": 510,
+      "testId": 234,
+      "optionText": "Тип данных, который представляет собой контейнер для переменных",
+      "isCorrect": false
+    },
+    {
+      "id": 511,
+      "testId": 234,
+      "optionText": "Специальный тип данных для работы с исключениями",
+      "isCorrect": false
+    }
+  ]
+},
+{
+  "id": 235,
+  "sectionId": 2,
+  "question": "Как объявить экземпляр делегата без использования ключевого слова new?",
+  "isCodeTest": false,
+  "correctAnswer": "MyDelegate del = DisplayMessage",
+  "testNumber": 235,
+  "options": [
+    {
+      "id": 512,
+      "testId": 235,
+      "optionText": "MyDelegate del = new MyDelegate()",
+      "isCorrect": false
+    },
+    {
+      "id": 513,
+      "testId": 235,
+      "optionText": "MyDelegate del = MyDelegate()",
+      "isCorrect": false
+    },
+    {
+      "id": 514,
+      "testId": 235,
+      "optionText": "MyDelegate del = DisplayMessage",
+      "isCorrect": true
+    },
+    {
+      "id": 515,
+      "testId": 235,
+      "optionText": "MyDelegate del = delegate",
+      "isCorrect": false
+    }
+  ]
+},
+{
+  "id": 236,
+  "sectionId": 2,
+  "question": "Может ли делегат ссылаться на статический метод?",
+  "isCodeTest": false,
+  "correctAnswer": "Да",
+  "testNumber": 236,
+  "options": [
+    {
+      "id": 516,
+      "testId": 236,
+      "optionText": "Да",
+      "isCorrect": true
+    },
+    {
+      "id": 517,
+      "testId": 236,
+      "optionText": "Нет",
+      "isCorrect": false
+    },
+    {
+      "id": 518,
+      "testId": 236,
+      "optionText": "Только если метод имеет возвращаемое значение",
+      "isCorrect": false
+    },
+    {
+      "id": 519,
+      "testId": 236,
+      "optionText": "Только если метод принимает аргументы",
+      "isCorrect": false
+    }
+  ]
+},
+{
+  "id": 237,
+  "sectionId": 2,
+  "question": "Что такое анонимный метод в C#?",
+  "isCodeTest": false,
+  "correctAnswer": "Метод без имени",
+  "testNumber": 237,
+  "options": [
+    {
+      "id": 520,
+      "testId": 237,
+      "optionText": "Метод без имени",
+      "isCorrect": true
+    },
+    {
+      "id": 521,
+      "testId": 237,
+      "optionText": "Метод, который может быть вызван только изнутри других методов",
+      "isCorrect": false
+    },
+    {
+      "id": 522,
+      "testId": 237,
+      "optionText": "Метод, который объявляется с использованием ключевого слова delegate",
+      "isCorrect": false
+    },
+    {
+      "id": 523,
+      "testId": 237,
+      "optionText": "Метод, который не принимает аргументов",
+      "isCorrect": false
+    }
+  ]
+},
+{
+  "id": 238,
+  "sectionId": 2,
+  "question": "Какие есть способы создания экземпляра делегата в C#?",
+  "isCodeTest": false,
+  "correctAnswer": "С использованием ключевого слова new, С использованием синтаксиса => (лямбда-выражения)",
+  "testNumber": 238,
+  "options": [
+    {
+      "id": 524,
+      "testId": 238,
+      "optionText": "С использованием ключевого слова delegate",
+      "isCorrect": false
+    },
+    {
+      "id": 525,
+      "testId": 238,
+      "optionText": "С использованием ключевого слова new",
+      "isCorrect": true
+    },
+    {
+      "id": 526,
+      "testId": 238,
+      "optionText": "С использованием синтаксиса => (лямбда-выражения)",
+      "isCorrect": true
+    },
+    {
+      "id": 527,
+      "testId": 238,
+      "optionText": "С использованием ключевого слова instanceof",
+      "isCorrect": false
+    }
+  ]
+},
+{
+  "id": 239,
+  "sectionId": 2,
+  "question": "Можно ли использовать делегат для вызова метода, который возвращает значение?",
+  "isCodeTest": false,
+  "correctAnswer": "Да",
+  "testNumber": 239,
+  "options": [
+    {
+      "id": 528,
+      "testId": 239,
+      "optionText": "Да",
+      "isCorrect": true
+    },
+    {
+      "id": 529,
+      "testId": 239,
+      "optionText": "Нет",
+      "isCorrect": false
+    },
+    {
+      "id": 530,
+      "testId": 239,
+      "optionText": "Только если метод статический",
+      "isCorrect": false
+    },
+    {
+      "id": 531,
+      "testId": 239,
+      "optionText": "Только если метод принимает аргументы",
+      "isCorrect": false
+    }
+  ]
+},
+{
+  "id": 240,
+  "sectionId": 2,
+  "question": "Что такое многоадресный (multicast) делегат в C#?",
+  "isCodeTest": false,
+  "correctAnswer": "Делегат, который может ссылаться на несколько методов одновременно",
+  "testNumber": 240,
+  "options": [
+    {
+      "id": 532,
+      "testId": 240,
+      "optionText": "Делегат, который может ссылаться только на один метод",
+      "isCorrect": false
+    },
+    {
+      "id": 533,
+      "testId": 240,
+      "optionText": "Делегат, который может ссылаться на несколько методов одновременно",
+      "isCorrect": true
+    },
+    {
+      "id": 534,
+      "testId": 240,
+      "optionText": "Делегат, который может вызывать методы только асинхронно",
+      "isCorrect": false
+    },
+    {
+      "id": 535,
+      "testId": 240,
+      "optionText": "Делегат, который принимает несколько аргументов",
+      "isCorrect": false
+    }
+  ]
+},
+{
+  "id": 241,
+  "sectionId": 2,
+  "question": "Как удалить метод из многоадресного делегата в C#?",
+  "isCodeTest": false,
+  "correctAnswer": "Использовать оператор -= для удаления метода из делегата",
+  "testNumber": 241,
+  "options": [
+    {
+      "id": 536,
+      "testId": 241,
+      "optionText": "Изменить тип делегата на одиночный",
+      "isCorrect": false
+    },
+    {
+      "id": 537,
+      "testId": 241,
+      "optionText": "Изменить имя метода",
+      "isCorrect": false
+    },
+    {
+      "id": 538,
+      "testId": 241,
+      "optionText": "Использовать оператор -= для удаления метода из делегата",
+      "isCorrect": true
+    },
+    {
+      "id": 539,
+      "testId": 241,
+      "optionText": "Не существует способа удаления метода из многоадресного делегата",
+      "isCorrect": false
+    }
+  ]
+},
+{
+  "id": 242,
+  "sectionId": 2,
+  "question": "Можно ли создать многоадресный делегат, если методы имеют разные сигнатуры (типы параметров)?",
+  "isCodeTest": false,
+  "correctAnswer": "Нет",
+  "testNumber": 242,
+  "options": [
+    {
+      "id": 540,
+      "testId": 242,
+      "optionText": "Да",
+      "isCorrect": false
+    },
+    {
+      "id": 541,
+      "testId": 242,
+      "optionText": "Нет",
+      "isCorrect": true
+    },
+    {
+      "id": 542,
+      "testId": 242,
+      "optionText": "Только если методы возвращают одинаковый тип",
+      "isCorrect": false
+    },
+    {
+      "id": 543,
+      "testId": 242,
+      "optionText": "Только если методы статические",
+      "isCorrect": false
+    }
+  ]
+},
+{
+  "id": 243,
+  "sectionId": 2,
+  "question": "Может ли делегат ссылаться на методы экземпляра объекта?",
+  "isCodeTest": false,
+  "correctAnswer": "Да",
+  "testNumber": 243,
+  "options": [
+    {
+      "id": 544,
+      "testId": 243,
+      "optionText": "Да",
+      "isCorrect": true
+    },
+    {
+      "id": 545,
+      "testId": 243,
+      "optionText": "Нет",
+      "isCorrect": false
+    },
+    {
+      "id": 546,
+      "testId": 243,
+      "optionText": "Только если методы статические",
+      "isCorrect": false
+    },
+    {
+      "id": 547,
+      "testId": 243,
+      "optionText": "Только если объект является экземпляром класса, у которого нет конструктора",
+      "isCorrect": false
+    }
+  ]
+}
+	  
+	  ]
+    }
+  ]
+}

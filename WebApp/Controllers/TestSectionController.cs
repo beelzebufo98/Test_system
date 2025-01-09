@@ -9,7 +9,7 @@ namespace WebApp.Controllers
   public class TestSectionController : ControllerBase
   {
     private readonly ITestSectionService _testSectionService;
-    public TestSectionController(ITestSectionService testSectionService) 
+    public TestSectionController(ITestSectionService testSectionService)
     {
       _testSectionService = testSectionService;
     }

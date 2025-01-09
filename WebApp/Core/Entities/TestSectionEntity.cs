@@ -5,6 +5,6 @@ namespace WebApp.Core.Entities
   {
     public int Id { get; init; }
     public string Name { get; init; }
-    public ICollection<TestEntity> Tests { get; private set; }
+    public ICollection<TestEntity> Tests { get; init; }
   }
 }

@@ -14,6 +14,7 @@ public class TestDbContext : DbContext
   protected override void OnModelCreating(ModelBuilder modelBuilder)
   {
     modelBuilder.Entity<TestEntity>().Navigation(x => x.Options).AutoInclude();
+    modelBuilder.Entity<TestSectionEntity>().Navigation(x => x.Tests).AutoInclude();
     modelBuilder.Entity<TestEntity>()
         .HasOne<TestSectionEntity>()
         .WithMany(s => s.Tests)

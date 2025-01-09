@@ -4,6 +4,7 @@ using WebApp.Application.Services;
 using WebApp.Infrastructure.Data;
 using WebApp.Infrastructure.Data.Interfaces;
 using WebApp.Infrastructure.Data.Repositories;
+using WebApp.SeedData.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -42,4 +43,10 @@ app.UseCors("AllowReactApp");
 app.UseAuthorization();
 app.MapControllers();
 
+using (var scope = app.Services.CreateScope())
+{
+  var context = scope.ServiceProvider.GetRequiredService<TestDbContext>();
+  await context.Database.MigrateAsync();
+  await DbInitializer.SeedDataAsync(context);
+}
 app.Run();

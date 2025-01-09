@@ -11,6 +11,32 @@
   },
   {
     "ContainingType": "TestController",
+    "Method": "CheckAnswer",
+    "RelativePath": "api/Test/check-answer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AnswerCheckRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TestController",
     "Method": "GetTestsBySection",
     "RelativePath": "api/Test/section/{sectionId}",
     "HttpMethod": "GET",

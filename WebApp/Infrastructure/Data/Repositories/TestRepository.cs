@@ -9,16 +9,20 @@ namespace WebApp.Infrastructure.Data.Repositories
 
     private readonly TestDbContext _context;
 
-    public TestRepository(TestDbContext context) 
-    { 
+    public TestRepository(TestDbContext context)
+    {
       _context = context;
     }
 
     public async Task<ICollection<TestEntity>> GetTestsBySectionAsync(int sectionId)
     {
       return await _context.Tests.Where(x => x.SectionId == sectionId).ToListAsync();
-      
-    }
 
+    }
+    public async Task<TestEntity?> GetTestByIdAsync(int testId)
+    {
+      return await _context.Tests.FirstOrDefaultAsync(x => x.Id == testId);
+    }
   }
+
 }
