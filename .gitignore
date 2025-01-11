@@ -1,0 +1,81 @@
+# Visual Studio исключения
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Конфигурационные файлы
+appsettings*.json
+!appsettings.json
+*.env
+
+# Папки сборки
+WebApp/bin
+WebApp/obj
+**/out/*
+
+# Пакеты
+*.nupkg
+*.snupkg
+packages/
+*.nuspec
+
+# Logs, временные файлы и файлы блокировок
+*.log
+*.lock
+*.cache
+*.ide
+*.tlog
+*.pdb
+*.pidb
+
+# Rider / JetBrains исключения
+.idea/
+*.sln.iml
+*.dotSettings.user
+
+# Resharper исключения
+_ReSharper*/
+*.DotSettings.user
+
+# Azure и другие развертывания
+.publish/
+.publishprofiles/
+
+# Docker
+**/Dockerfile*
+**/docker-compose*
+.dockerignore
+
+# Npm / Yarn (если используется для фронтенда)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Тесты и покрытия кода
+TestResults/
+*.coverage
+*.coveragexml
+*.trx
+
+# Базы данных
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Личные ключи и сертификаты
+*.pfx
+*.cer
+*.key
+
+# Генерация для Entity Framework Core
+*.designer.cs
+
+# Temporary files
+*.tmp

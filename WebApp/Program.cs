@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileProviders;
 using WebApp.Application.Interfaces;
 using WebApp.Application.Services;
 using WebApp.Infrastructure.Data;
@@ -16,7 +17,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddCors(options =>
 {
   options.AddPolicy("AllowReactApp",
-      builder => builder
+      b => b
           .AllowAnyOrigin()
           .AllowAnyMethod()
           .AllowAnyHeader());
@@ -24,7 +25,13 @@ builder.Services.AddCors(options =>
 
 // Add DB Context
 builder.Services.AddDbContext<TestDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+{
+  var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+  if (string.IsNullOrEmpty(connectionString))
+    throw new NullReferenceException("Connection string is null or empty.");
+    
+  options.UseNpgsql(connectionString);
+});
 builder.Services.AddScoped<ITestService, TestService>();
 builder.Services.AddScoped<ITestSectionService, TestSectionService>();
 builder.Services.AddScoped<ITestRepository, TestRepository>();
@@ -38,9 +45,16 @@ if (app.Environment.IsDevelopment())
   app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+// app.UseHttpsRedirection();
 app.UseCors("AllowReactApp");
 app.UseAuthorization();
+app.UseStaticFiles();
+app.UseStaticFiles(new StaticFileOptions
+{
+  FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot")),
+  RequestPath = ""
+});
+app.MapFallbackToFile("index.html");
 app.MapControllers();
 
 using (var scope = app.Services.CreateScope())

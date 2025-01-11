@@ -1096,7 +1096,7 @@
               "id": 115,
               "testId": 42,
               "optionText": "int n = '1'",
-              "isCorrect": false
+              "isCorrect": true
             },
             {
               "id": 116,
@@ -2499,13 +2499,13 @@
               "id": 234,
               "testId": 116,
               "optionText": "Итерацию с использованием цикла foreach.",
-              "isCorrect": false
+              "isCorrect": true
             },
             {
               "id": 235,
               "testId": 116,
               "optionText": "Изменение размеров массива.",
-              "isCorrect": true
+              "isCorrect": false
             },
             {
               "id": 236,
@@ -2736,7 +2736,7 @@
               "id": 259,
               "testId": 125,
               "optionText": "Изменения в новом массиве не повлияют на оригинальный массив.",
-              "isCorrect": true
+              "isCorrect": false
             },
             {
               "id": 260,
