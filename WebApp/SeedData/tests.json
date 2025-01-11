@@ -1071,7 +1071,7 @@
           "sectionId": 1,
           "question": "Где правильно создана переменная?",
           "isCodeTest": false,
-          "correctAnswer": "char symbol = 'A'",
+          "correctAnswer": "char symbol = 'A', int n = '1'",
           "testNumber": 42,
           "options": [
             {
@@ -2486,7 +2486,7 @@
           "sectionId": 1,
           "question": "Какие из следующих операций можно выполнить над элементами массива в C#?",
           "isCodeTest": false,
-          "correctAnswer": "Прямой доступ к элементам через индекс., Изменение размеров массива., Итерацию с использованием цикла for.",
+          "correctAnswer": "Прямой доступ к элементам через индекс., Итерацию с использованием цикла foreach., Итерацию с использованием цикла for.",
           "testNumber": 116,
           "options": [
             {
@@ -2717,7 +2717,7 @@
           "sectionId": 1,
           "question": "Какие из следующих утверждений верны для метода Clone?",
           "isCodeTest": false,
-          "correctAnswer": "2, 3",
+          "correctAnswer": "Метод создает поверхностную копию массива.",
           "testNumber": 125,
           "options": [
             {
@@ -3336,7 +3336,7 @@
 	  "sectionId": 2,
 	  "question": "Какие из следующих утверждений верны для абстрактных методов?",
 	  "isCodeTest": false,
-	  "correctAnswer": "Абстрактные методы всегда должны быть переопределены в производных классах",
+	  "correctAnswer": "Абстрактные методы всегда должны быть переопределены в производных классах,  Абстрактные методы могут иметь различные уровни доступа: public, protected, internal и private, Абстрактный метод может быть перегружен в производном классе",
 	  "testNumber": 178,
 	  "options": [
 		{
@@ -3355,7 +3355,7 @@
 		  "id": 281,
 		  "testId": 178,
 		  "optionText": "Абстрактный метод может быть перегружен в производном классе",
-		  "isCorrect": false
+		  "isCorrect": true
 		},
 		{
 		  "id": 282,
@@ -3367,7 +3367,7 @@
 		  "id": 283,
 		  "testId": 178,
 		  "optionText": "Абстрактные методы могут иметь различные уровни доступа: public, protected, internal и private",
-		  "isCorrect": false
+		  "isCorrect": true
 		}
 	  ]
 	},
@@ -3376,7 +3376,7 @@
 	  "sectionId": 2,
 	  "question": "Какие члены класса можно объявить с модификатором readonly?",
 	  "isCodeTest": false,
-	  "correctAnswer": "Поля класса, Константы",
+	  "correctAnswer": "Поля класса",
 	  "testNumber": 179,
 	  "options": [
 		{
@@ -3401,7 +3401,7 @@
 		  "id": 287,
 		  "testId": 179,
 		  "optionText": "Константы",
-		  "isCorrect": true
+		  "isCorrect": false
 		}
 	  ]
 	},{
@@ -3602,7 +3602,7 @@
   "sectionId": 2,
   "question": "Какое из следующих утверждений о модификаторе readonly верно?",
   "isCodeTest": false,
-  "correctAnswer": "Поле readonly может быть инициализировано только при объявлении или в конструкторе, Поле readonly нельзя изменить после инициализации, Поле readonly может быть статическим",
+  "correctAnswer": "Поле readonly может быть инициализировано только при объявлении или в конструкторе, Поле readonly можно использовать в структурах, Поле readonly нельзя изменить после инициализации, Поле readonly может быть статическим",
   "testNumber": 185,
   "options": [
     {
@@ -3632,8 +3632,8 @@
     {
       "id": 316,
       "testId": 185,
-      "optionText": "Поле readonly нельзя использовать в структурах",
-      "isCorrect": false
+      "optionText": "Поле readonly можно использовать в структурах",
+      "isCorrect": true
     }
   ]
 },
@@ -3642,7 +3642,7 @@
   "sectionId": 2,
   "question": "Какие модификаторы доступа применимы к методам класса?",
   "isCodeTest": false,
-  "correctAnswer": "sealed, internal, protected internal",
+  "correctAnswer": "private, internal, protected internal",
   "testNumber": 186,
   "options": [
     {
@@ -3655,13 +3655,13 @@
       "id": 318,
       "testId": 186,
       "optionText": "private",
-      "isCorrect": false
+      "isCorrect": true
     },
     {
       "id": 319,
       "testId": 186,
       "optionText": "sealed",
-      "isCorrect": true
+      "isCorrect": false
     },
     {
       "id": 320,
@@ -3719,7 +3719,7 @@
 },{
   "id": 188,
   "sectionId": 2,
-  "question": "Какой модификатор позволяет обратиться к члену класса только из его потомков?",
+  "question": "Какой модификатор доступа позволяет обратиться к члену класса только из его потомков?",
   "isCodeTest": false,
   "correctAnswer": "protected",
   "testNumber": 188,
@@ -4065,12 +4065,12 @@
   "sectionId": 2,
   "question": "Что из перечисленного верно для конструктора производного класса?",
   "isCodeTest": false,
-  "correctAnswer": "Он вызывается после выполнения конструктора базового класса",
+  "correctAnswer": "Он вызывается после выполнения конструктора базового класса, Он может быть перегружен",
   "testNumber": 204,
   "options": [
     { "id": 392, "testId": 204, "optionText": "Он должен явно вызывать конструктор базового класса", "isCorrect": false },
     { "id": 393, "testId": 204, "optionText": "Он наследуется от базового класса", "isCorrect": false },
-    { "id": 394, "testId": 204, "optionText": "Он может быть перегружен", "isCorrect": false },
+    { "id": 394, "testId": 204, "optionText": "Он может быть перегружен", "isCorrect": true},
     { "id": 395, "testId": 204, "optionText": "Он вызывается после выполнения конструктора базового класса", "isCorrect": true }
   ]
 },{
@@ -4241,7 +4241,7 @@
   "sectionId": 2,
   "question": "Базовым для перечисления может быть тип:",
   "isCodeTest": false,
-  "correctAnswer": "byte, sbyte",
+  "correctAnswer": "int, byte, sbyte",
   "testNumber": 210,
   "options": [
     {
@@ -4254,7 +4254,7 @@
       "id": 416,
       "testId": 210,
       "optionText": "int",
-      "isCorrect": false
+      "isCorrect": true
     },
     {
       "id": 417,
@@ -4315,7 +4315,7 @@
   "sectionId": 2,
   "question": "В открытом классе W определён только один конструктор - в каких строках будут выявлены ошибки:\nclass W {\n    public int d;\n    public W(double s, char ch) { d = (int)s + ch; }\n}",
   "isCodeTest": false,
-  "correctAnswer": "W r = new W();, W[] y = new W[5];",
+  "correctAnswer": "W r = new W();, W[] y = new W[5];, W[] t = new (W(8.4, 'r'), new W(1e-2, '9'), new W());",
   "testNumber": 212,
   "options": [
     {
@@ -4340,7 +4340,7 @@
       "id": 427,
       "testId": 212,
       "optionText": "W[] t = new (W(8.4, 'r'), new W(1e-2, '9'), new W());",
-      "isCorrect": false
+      "isCorrect": true
     },
     {
       "id": 428,
@@ -4364,7 +4364,7 @@
   "sectionId": 2,
   "question": "Верно, что виртуальным может быть:",
   "isCodeTest": false,
-  "correctAnswer": "метод класса, свойство объекта",
+  "correctAnswer": "метод класса, свойство класса",
   "testNumber": 214,
   "options": [
     {
@@ -4389,13 +4389,13 @@
       "id": 432,
       "testId": 214,
       "optionText": "свойство объекта",
-      "isCorrect": true
+      "isCorrect": false
     },
     {
       "id": 433,
       "testId": 214,
       "optionText": "свойство класса",
-      "isCorrect": false
+      "isCorrect": true
     }
   ]
 },
@@ -4487,13 +4487,13 @@
   "sectionId": 2,
   "question": "Какие операции обязательно перегружаются парами?",
   "isCodeTest": false,
-  "correctAnswer": "< и <=, == и !=",
+  "correctAnswer": "> и <, == и !=",
   "testNumber": 218,
   "options": [
     {
       "id": 443,
       "testId": 218,
-      "optionText": "< и <=",
+      "optionText": "> и <",
       "isCorrect": true
     },
     {
